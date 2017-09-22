@@ -1,0 +1,1027 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "component": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/.cache/dev-404-page.js",
+      "path": "/dev-404-page/",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "updatedAt": 1506098988626,
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9d2f6da2e0644b382d3f30ae4d3e7eab",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2038d0fc928db570f1e74cc0c9ddde59",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "fa1a18268832775752f468ddeb32bc69",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bd34864bdfbdf756fc0467d94b33e092",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "47e57b934689be1c6d158ee238f2cc1c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a17be29f9b2b16f6b81398242f6596a5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "04b452a0b756720e2ef5b37321213e88",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "1.0.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "1.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": {
+          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ff9b02d304bfa43d502efdd823abd84e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-catch-links": {
+      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-catch-links",
+      "id": "Plugin gatsby-plugin-catch-links",
+      "name": "gatsby-plugin-catch-links",
+      "version": "1.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-catch-links",
+      "packageJson": {
+        "name": "gatsby-plugin-catch-links",
+        "description": "Intercepts local links from markdown and other non-react pages and does a client-side pushState to avoid the browser having to refresh the page.",
+        "version": "1.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "28f102a222cb7e02599f25a47e4cc8d4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages",
+        "name": "pages"
+      },
+      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.1",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0c1b8f94a7527181ec0feeacc4ec38d9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.10",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-remark-prismjs",
+            "id": "Plugin gatsby-remark-prismjs",
+            "name": "gatsby-remark-prismjs",
+            "version": "1.2.8",
+            "pluginOptions": {
+              "plugins": [],
+              "classPrefix": "language-"
+            },
+            "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-remark-prismjs"
+          }
+        ]
+      },
+      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.10",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^2.1.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "382a272f68f494bedfe63ed1650e24ba",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-prismjs": {
+      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-remark-prismjs",
+      "id": "Plugin gatsby-remark-prismjs",
+      "name": "gatsby-remark-prismjs",
+      "version": "1.2.8",
+      "pluginOptions": {
+        "plugins": [],
+        "classPrefix": "language-"
+      },
+      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "1.2.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "^0.0.2"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "cb37944c0e750e5589b56f5aa4b76199",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "b090abb4cdbd5f57c1d7c2091b5cc0ad",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "Gatsby default starter",
+        "version": "1.0.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.36"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.15"
+          },
+          {
+            "name": "gatsby-plugin-catch-links",
+            "version": "^1.0.8"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "^1.2.8"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.1"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.10"
+          },
+          {
+            "name": "prism-themes",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.6.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "96c2b05a4b5c16035d0653f6f76d072d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Pixelstew",
+        "author": "Rob Gilbert"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2017-09-22T16:49:46.420Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "52ecec8d199763ff718e71183de1c659",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/404.js absPath of file": {
+      "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/404.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8d50d9a7e3f04ddcc5ff8d43b6effe79",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/404.js",
+      "relativePath": "404.js",
+      "extension": "js",
+      "size": 198,
+      "prettySize": "198 B",
+      "modifiedTime": "2017-09-21T14:21:53.000Z",
+      "accessTime": "2017-09-22T16:49:48.000Z",
+      "changeTime": "2017-09-21T17:22:04.000Z",
+      "birthTime": "2017-09-21T14:21:53.000Z",
+      "root": "/",
+      "dir": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages",
+      "base": "404.js",
+      "ext": ".js",
+      "name": "404",
+      "dev": 16777218,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1877399581,
+      "gid": 2017357157,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 34799488,
+      "blocks": 8,
+      "atimeMs": 1506098988000,
+      "mtimeMs": 1506003713000,
+      "ctimeMs": 1506014524000,
+      "birthtimeMs": 1506003713000,
+      "atime": "2017-09-22T16:49:48.000Z",
+      "mtime": "2017-09-21T14:21:53.000Z",
+      "ctime": "2017-09-21T17:22:04.000Z",
+      "birthtime": "2017-09-21T14:21:53.000Z"
+    },
+    "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/index.js absPath of file": {
+      "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ef8c21336d2fb33efcaea485e16fb701",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/index.js",
+      "relativePath": "index.js",
+      "extension": "js",
+      "size": 1113,
+      "prettySize": "1.11 kB",
+      "modifiedTime": "2017-09-22T13:19:01.000Z",
+      "accessTime": "2017-09-22T16:49:48.000Z",
+      "changeTime": "2017-09-22T13:19:01.000Z",
+      "birthTime": "2017-09-21T14:21:53.000Z",
+      "root": "/",
+      "dir": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "dev": 16777218,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1877399581,
+      "gid": 2017357157,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 34799489,
+      "blocks": 8,
+      "atimeMs": 1506098988000,
+      "mtimeMs": 1506086341000,
+      "ctimeMs": 1506086341000,
+      "birthtimeMs": 1506003713000,
+      "atime": "2017-09-22T16:49:48.000Z",
+      "mtime": "2017-09-22T13:19:01.000Z",
+      "ctime": "2017-09-22T13:19:01.000Z",
+      "birthtime": "2017-09-21T14:21:53.000Z"
+    },
+    "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file": {
+      "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file",
+      "children": [
+        "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "dfbbf1071354076f428077f5eebbf8a5",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md",
+      "relativePath": "220917_test_post/index.md",
+      "extension": "md",
+      "size": 248,
+      "prettySize": "248 B",
+      "modifiedTime": "2017-09-21T16:12:25.000Z",
+      "accessTime": "2017-09-22T16:49:48.000Z",
+      "changeTime": "2017-09-21T17:22:04.000Z",
+      "birthTime": "2017-09-21T15:38:40.000Z",
+      "root": "/",
+      "dir": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 16777218,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1877399581,
+      "gid": 2017357157,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 34799487,
+      "blocks": 8,
+      "atimeMs": 1506098988000,
+      "mtimeMs": 1506010345000,
+      "ctimeMs": 1506014524000,
+      "birthtimeMs": 1506008320000,
+      "atime": "2017-09-22T16:49:48.000Z",
+      "mtime": "2017-09-21T16:12:25.000Z",
+      "ctime": "2017-09-21T17:22:04.000Z",
+      "birthtime": "2017-09-21T15:38:40.000Z"
+    },
+    "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file": {
+      "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file",
+      "children": [
+        "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "dca7ce382d0520fa11d024b17fdee66d",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md",
+      "relativePath": "210917_Building_this_site/index.md",
+      "extension": "md",
+      "size": 145,
+      "prettySize": "145 B",
+      "modifiedTime": "2017-09-21T16:22:38.000Z",
+      "accessTime": "2017-09-22T16:49:48.000Z",
+      "changeTime": "2017-09-21T17:22:04.000Z",
+      "birthTime": "2017-09-21T15:00:08.000Z",
+      "root": "/",
+      "dir": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 16777218,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1877399581,
+      "gid": 2017357157,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 34799485,
+      "blocks": 8,
+      "atimeMs": 1506098988000,
+      "mtimeMs": 1506010958000,
+      "ctimeMs": 1506014524000,
+      "birthtimeMs": 1506006008000,
+      "atime": "2017-09-22T16:49:48.000Z",
+      "mtime": "2017-09-21T16:22:38.000Z",
+      "ctime": "2017-09-21T17:22:04.000Z",
+      "birthtime": "2017-09-21T15:00:08.000Z"
+    },
+    "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: \"/test\"\ndate: \"2017-07-12T17:12:33.962Z\"\ntitle: \"Test title\"\n---\n\nThis is a slightly longer article\n\n## It has an H2!\n\nEnjoy it - you earned it\n\n```javascript\nconst coolFunc = (funk) => {\n  return `This ${funk} is the coolest funk!`\n}\n```",
+        "contentDigest": "1b166dffc246866b87b33ae648316a5d",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Test title",
+        "path": "/test",
+        "date": "2017-07-12T17:12:33.962Z",
+        "parent": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md"
+    },
+    "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: \"/building_this_site\"\ndate: \"2017-07-12T17:12:33.962Z\"\ntitle: \"Building this site\"\n---\n\nI'm Roberto\n\n```css\nbody{\n  display:none;\n}\n```",
+        "contentDigest": "f2442aee38f04ec2693eef9e245f1601",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Building this site",
+        "path": "/building_this_site",
+        "date": "2017-07-12T17:12:33.962Z",
+        "parent": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md"
+    },
+    "SitePage /test": {
+      "path": "/test",
+      "component": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/templates/blog-post.js",
+      "context": {
+        "next": {
+          "excerpt": "I'm Roberto",
+          "html": "<p>I'm Roberto</p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-css\"><code><span class=\"token selector\">body</span><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">display</span><span class=\"token punctuation\">:</span>none<span class=\"token punctuation\">;</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>\n      </div>",
+          "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
+          "frontmatter": {
+            "date": "2017-07-12T17:12:33.962Z",
+            "path": "/building_this_site",
+            "title": "Building this site"
+          }
+        }
+      },
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "layout": "index",
+      "jsonName": "test.json",
+      "internalComponentName": "ComponentTest",
+      "updatedAt": 1506098988687,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/templates/blog-post.js",
+      "id": "SitePage /test",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "716d81f6b28a2c48dbae42c86f81b8a6",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /building_this_site": {
+      "path": "/building_this_site",
+      "component": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/templates/blog-post.js",
+      "context": {
+        "prev": {
+          "excerpt": "This is a slightly longer article It has an H2! Enjoy it - you earned it",
+          "html": "<p>This is a slightly longer article</p>\n<h2>It has an H2!</h2>\n<p>Enjoy it - you earned it</p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-javascript\"><code><span class=\"token keyword\">const</span> coolFunc <span class=\"token operator\">=</span> <span class=\"token punctuation\">(</span>funk<span class=\"token punctuation\">)</span> <span class=\"token operator\">=></span> <span class=\"token punctuation\">{</span>\n  <span class=\"token keyword\">return</span> <span class=\"token template-string\"><span class=\"token string\">`This </span><span class=\"token interpolation\"><span class=\"token interpolation-punctuation punctuation\">${</span>funk<span class=\"token interpolation-punctuation punctuation\">}</span></span><span class=\"token string\"> is the coolest funk!`</span></span>\n<span class=\"token punctuation\">}</span>\n</code></pre>\n      </div>",
+          "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
+          "frontmatter": {
+            "date": "2017-07-12T17:12:33.962Z",
+            "path": "/test",
+            "title": "Test title"
+          }
+        }
+      },
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "layout": "index",
+      "jsonName": "building-this-site.json",
+      "internalComponentName": "ComponentBuildingThisSite",
+      "updatedAt": 1506098988687,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/templates/blog-post.js",
+      "id": "SitePage /building_this_site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0524efaff6e694f9456d963fed820606",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "path": "/404/",
+      "component": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "updatedAt": 1506098988699,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5a211806d3eac75d2e9aa8c51bcbbad9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "path": "/",
+      "component": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "updatedAt": 1506098988700,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "291f8aed25c754579a0d47372930a8c3",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "path": "/404.html",
+      "component": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "updatedAt": 1506098988702,
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3bbf398e8da6aef1b401dd66888d295b",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "445a084f3687e156200a456f74b1d612"
+  },
+  "componentDataDependencies": {
+    "nodes": {},
+    "connections": {
+      "MarkdownRemark": [
+        "/"
+      ],
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}
