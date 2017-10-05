@@ -10,6 +10,13 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "building-this-site.json",
+        "path": "/building_this_site"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "test.json",
         "path": "/test"
     },
@@ -17,8 +24,8 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "building-this-site.json",
-        "path": "/building_this_site"
+        "jsonName": "third-post.json",
+        "path": "/third-post"
     },
     {
         "componentChunkName": "component---src-pages-404-js",

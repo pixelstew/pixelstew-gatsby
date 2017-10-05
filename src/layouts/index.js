@@ -2,38 +2,34 @@ import React from "react";
 import PropTypes from "prop-types";
 import Link from "gatsby-link";
 import Helmet from "react-helmet";
+import Logo from "../components/logo"
+import Theme from "../components/pixelstewTheme"
+import Twitter from "../components/twitter"
+import GitHub from "../components/github"
 
 import "./index.css";
-import "prism-themes/themes/prism-duotone-sea.css";
+import "prism-themes/themes/prism-duotone-space.css";
 
-const Header = () => (
-  <div
-    style={{
-      // background: "rebeccapurple",
-      marginBottom: "1.45rem"
-    }}
-  >
+
+
+const Header = () =>
+  (
     <div
       style={{
         margin: "0 auto",
-        maxWidth: 960,
-        padding: "1.45rem 1.0875rem"
+        padding: ".5rem 1.0875rem",
+        maxWidth: "900px",
+        position: "relative"
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            // color: "white",
-            textDecoration: "none"
-          }}
-        >
-          Pixelstew
-        </Link>
-      </h1>
+      <Link to="/">
+        <Logo theme={Theme} />
+      </Link>
+      <GitHub theme={Theme} />
+      <Twitter theme={Theme} />
     </div>
-  </div>
-);
+  );
+
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -45,16 +41,15 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Header />
-    <div
+    <article
       style={{
         margin: "0 auto",
-        maxWidth: 960,
         padding: "0px 1.0875rem 1.45rem",
         paddingTop: 0
       }}
     >
       {children()}
-    </div>
+    </article>
   </div>
 );
 

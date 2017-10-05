@@ -1,5 +1,5 @@
 var plugins = [{
-      plugin: require('/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-catch-links/gatsby-browser.js'),
+      plugin: require('/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-catch-links/gatsby-browser.js'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks

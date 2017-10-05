@@ -1,19 +1,35 @@
 import React from "react";
-import Link from "gatsby-link";
+import GatsbyLink from "gatsby-link";
+import styled from "styled-components";
 
-const NextPage = () => {
+const NextPage = (props) => {
+
+  const Link = styled(GatsbyLink) `
+    text-decoration-skip: ink;
+    margin: 3rem 0;
+    color: ${props.theme.secondary};
+    &.prev{
+      float: left;
+    }
+    &.next{
+      float: right;
+    }
+  `;
+
   return (
     <div className="navigation">
-      {prev && (
-        <Link className="link prev" to={prev.frontmatter.path}>
-          <BackIcon /> {prev.frontmatter.title}
+      {props.prev && (
+        <Link className="link prev" to={props.prev.frontmatter.path}>
+          &larr; {props.prev.frontmatter.title}
         </Link>
       )}
-      {next && (
-        <Link className="link next" to={next.frontmatter.path}>
-          {next.frontmatter.title} <ForwardIcon />
+      {props.next && (
+        <Link className="link next" to={props.next.frontmatter.path}>
+          {props.next.frontmatter.title} &rarr;
         </Link>
       )}
     </div>
   );
 };
+
+export default NextPage
