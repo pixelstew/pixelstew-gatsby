@@ -5,36 +5,48 @@
                 {
                     "node": {
                         "excerpt": "Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim.  In rump bresaola cow, fatback consequat nostrud ut…",
-                        "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
+                        "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
                         "frontmatter": {
                             "title": "Building this site",
                             "date": "October 05, 2017",
                             "path": "/building_this_site",
-                            "image": "http://www.placecage.com/g/400/225"
-                        }
-                    }
-                },
-                {
-                    "node": {
-                        "excerpt": "This is a paragraph.",
-                        "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
-                        "frontmatter": {
-                            "title": "Test title",
-                            "date": "July 12, 2017",
-                            "path": "/test",
-                            "image": "http://www.placecage.com/g/400/225"
+                            "image": "http://lorempixel.com/400/225/",
+                            "tags": [
+                                "latin",
+                                "sample"
+                            ]
                         }
                     }
                 },
                 {
                     "node": {
                         "excerpt": "",
-                        "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
+                        "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
                         "frontmatter": {
                             "title": "Third Post",
                             "date": "July 12, 2017",
                             "path": "/third-post",
-                            "image": "http://www.placecage.com/g/400/225"
+                            "image": "http://lorempixel.com/400/225/",
+                            "tags": [
+                                "latin",
+                                "sample"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "excerpt": "This is a paragraph.",
+                        "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
+                        "frontmatter": {
+                            "title": "Test title",
+                            "date": "July 12, 2017",
+                            "path": "/test",
+                            "image": "http://lorempixel.com/400/225/",
+                            "tags": [
+                                "latin",
+                                "sample"
+                            ]
                         }
                     }
                 }

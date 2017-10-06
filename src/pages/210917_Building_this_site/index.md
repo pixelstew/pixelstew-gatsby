@@ -2,7 +2,8 @@
 path: "/building_this_site"
 date: "2017-10-05T23:10:43+00:00"
 title: "Building this site"
-image: "http://www.placecage.com/g/400/225"
+image: "http://lorempixel.com/400/225/"
+tags: ["latin", "sample"]
 ---
 
 Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim. 

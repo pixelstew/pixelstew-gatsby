@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import Theme from "./pixelstewTheme"
+import Theme from "./pixelstewTheme";
 
-const GitHubLogo = (props) => {
+const GitHubLogo = props => {
   return (
     <div className={props.className}>
       <a href="https://github.com/pixelstew">
-        <svg x="0px" y="0px" viewBox="0 0 512 512" >
+        <svg x="0px" y="0px" viewBox="0 0 512 512">
           <g>
             <path d="M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z M408.027,408.027
               c-19.76,19.759-42.756,35.267-68.354,46.094c-6.502,2.75-13.105,5.164-19.801,7.246V423c0-20.167-6.916-35-20.75-44.5
@@ -21,33 +21,33 @@ const GitHubLogo = (props) => {
       c-19.758-19.758-35.267-42.756-46.093-68.354C46.679,313.195,41,285.043,41,256s5.679-57.195,16.879-83.675
       c10.827-25.597,26.335-48.594,46.093-68.353c19.758-19.759,42.756-35.267,68.353-46.093C198.805,46.679,226.957,41,256,41
       s57.195,5.679,83.676,16.879c25.598,10.827,48.594,26.335,68.354,46.093c19.758,19.758,35.266,42.756,46.092,68.353
-      C465.32,198.805,471,226.957,471,256s-5.68,57.195-16.879,83.675C443.295,365.271,427.785,388.27,408.027,408.027z"/>
+      C465.32,198.805,471,226.957,471,256s-5.68,57.195-16.879,83.675C443.295,365.271,427.785,388.27,408.027,408.027z" />
           </g>
         </svg>
       </a>
     </div>
-  )
-}
+  );
+};
 
-const GitHub = styled(GitHubLogo) `
+const GitHub = styled(GitHubLogo)`
   width: 30px;
   position: absolute;
   top: 50px;
   right: 1rem;
-  @media(min-width: 500px){
+  @media (min-width: 500px) {
     top: 2rem;
     right: 5rem;
   }
   & svg {
+    transition: fill ${Theme.transition} ease;
     fill: ${Theme.primary};
-    &:hover{
-      fill: ${Theme.secondary}
+    &:hover {
+      fill: ${Theme.secondary};
     }
-    &:active{
-      transform: scale(.8)
+    &:active {
+      transform: ${Theme.scale};
     }
   }
-;`
+`;
 
-
-export default GitHub
+export default GitHub;

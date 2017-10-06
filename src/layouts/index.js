@@ -2,34 +2,30 @@ import React from "react";
 import PropTypes from "prop-types";
 import Link from "gatsby-link";
 import Helmet from "react-helmet";
-import Logo from "../components/logo"
-import Theme from "../components/pixelstewTheme"
-import Twitter from "../components/twitter"
-import GitHub from "../components/github"
+import Logo from "../components/logo";
+import Theme from "../components/pixelstewTheme";
+import Twitter from "../components/twitter";
+import GitHub from "../components/github";
 
 import "./index.css";
 import "prism-themes/themes/prism-duotone-space.css";
 
-
-
-const Header = () =>
-  (
-    <div
-      style={{
-        margin: "0 auto",
-        padding: ".5rem 1.0875rem",
-        maxWidth: "900px",
-        position: "relative"
-      }}
-    >
-      <Link to="/">
-        <Logo theme={Theme} />
-      </Link>
-      <GitHub theme={Theme} />
-      <Twitter theme={Theme} />
-    </div>
-  );
-
+const Header = () => (
+  <div
+    style={{
+      margin: "0 auto",
+      padding: ".5rem 1.0875rem",
+      maxWidth: "900px",
+      position: "relative"
+    }}
+  >
+    <Link to="/">
+      <Logo theme={Theme} />
+    </Link>
+    <GitHub theme={Theme} />
+    <Twitter theme={Theme} />
+  </div>
+);
 
 const TemplateWrapper = ({ children }) => (
   <div>

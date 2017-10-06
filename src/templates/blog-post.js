@@ -1,10 +1,11 @@
-import React from "react";
-import Helmet from "react-helmet";
 import GatsbyLink from "gatsby-link";
+import Helmet from "react-helmet";
+import React from "react";
 import styled from "styled-components";
-import NextPage from "../components/nextpage"
-import theme from "../components/pixelstewTheme"
 
+import NextPage from "../components/nextpage";
+import theme from "../components/pixelstewTheme";
+import TagList from "../components/tagList";
 
 export default function Template({ data, pathContext }) {
   const { markdownRemark: post } = data; // data.markdownRemark holds our post data
@@ -19,6 +20,7 @@ export default function Template({ data, pathContext }) {
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
       </div>
+      <TagList list={post.frontmatter.tags || []} />
       <NextPage next={next} prev={prev} theme={theme} />
     </div>
   );
@@ -32,6 +34,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        tags
       }
     }
   }
