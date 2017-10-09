@@ -4,7 +4,7 @@ import PostPreview from "../components/PostPreview";
 import TagList from "../components/tagList";
 import Theme from "../components/pixelstewTheme";
 import Link from "gatsby-link";
-import Config from "../config";
+import Config from "../../gatsby-config";
 
 export default function PaginatedPostList({ pathContext }) {
   const { group, index, last } = pathContext;

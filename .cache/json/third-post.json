@@ -15,6 +15,20 @@
     },
     "pathContext": {
         "prev": {
+            "excerpt": "Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim.  In rump bresaola cow, fatback consequat nostrud ut…",
+            "html": "<p>Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim. </p>\n<p>In rump bresaola cow, fatback consequat nostrud ut aliquip irure sed burgdoggen occaecat in sint. Cow pariatur laborum pancetta beef tongue dolor shankle aute kevin pork chop t-bone pig ex meatball. </p>\n<p>T-bone jerky do jowl shank, laboris adipisicing capicola drumstick rump chuck ground round non. Rump burgdoggen ball tip kielbasa proident.</p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-css\"><code><span class=\"token selector\">body</span><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">display</span><span class=\"token punctuation\">:</span>none<span class=\"token punctuation\">;</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>\n      </div>",
+            "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
+            "frontmatter": {
+                "date": "2017-10-05T23:10:43+00:00",
+                "path": "/building_this_site",
+                "title": "Building this site",
+                "tags": [
+                    "latin",
+                    "sample"
+                ]
+            }
+        },
+        "next": {
             "excerpt": "This is a paragraph.",
             "html": "<p>This is a paragraph.</p>",
             "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",

@@ -17,20 +17,6 @@
                     }
                 },
                 {
-                    "excerpt": "This is a paragraph.",
-                    "html": "<p>This is a paragraph.</p>",
-                    "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
-                    "frontmatter": {
-                        "date": "2017-07-12T17:12:33.962Z",
-                        "path": "/test",
-                        "title": "Test title",
-                        "tags": [
-                            "latin",
-                            "sample"
-                        ]
-                    }
-                },
-                {
                     "excerpt": "",
                     "html": "",
                     "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
@@ -38,6 +24,20 @@
                         "date": "2017-07-12T17:12:33.962Z",
                         "path": "/third-post",
                         "title": "Third Post",
+                        "tags": [
+                            "latin",
+                            "sample"
+                        ]
+                    }
+                },
+                {
+                    "excerpt": "This is a paragraph.",
+                    "html": "<p>This is a paragraph.</p>",
+                    "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
+                    "frontmatter": {
+                        "date": "2017-07-12T17:12:33.962Z",
+                        "path": "/test",
+                        "title": "Test title",
                         "tags": [
                             "latin",
                             "sample"
@@ -61,20 +61,6 @@
                     }
                 },
                 {
-                    "excerpt": "This is a paragraph.",
-                    "html": "<p>This is a paragraph.</p>",
-                    "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
-                    "frontmatter": {
-                        "date": "2017-07-12T17:12:33.962Z",
-                        "path": "/test",
-                        "title": "Test title",
-                        "tags": [
-                            "latin",
-                            "sample"
-                        ]
-                    }
-                },
-                {
                     "excerpt": "",
                     "html": "",
                     "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
@@ -82,6 +68,20 @@
                         "date": "2017-07-12T17:12:33.962Z",
                         "path": "/third-post",
                         "title": "Third Post",
+                        "tags": [
+                            "latin",
+                            "sample"
+                        ]
+                    }
+                },
+                {
+                    "excerpt": "This is a paragraph.",
+                    "html": "<p>This is a paragraph.</p>",
+                    "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
+                    "frontmatter": {
+                        "date": "2017-07-12T17:12:33.962Z",
+                        "path": "/test",
+                        "title": "Test title",
                         "tags": [
                             "latin",
                             "sample"
@@ -106,20 +106,6 @@
                 }
             },
             {
-                "excerpt": "This is a paragraph.",
-                "html": "<p>This is a paragraph.</p>",
-                "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
-                "frontmatter": {
-                    "date": "2017-07-12T17:12:33.962Z",
-                    "path": "/test",
-                    "title": "Test title",
-                    "tags": [
-                        "latin",
-                        "sample"
-                    ]
-                }
-            },
-            {
                 "excerpt": "",
                 "html": "",
                 "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
@@ -127,6 +113,20 @@
                     "date": "2017-07-12T17:12:33.962Z",
                     "path": "/third-post",
                     "title": "Third Post",
+                    "tags": [
+                        "latin",
+                        "sample"
+                    ]
+                }
+            },
+            {
+                "excerpt": "This is a paragraph.",
+                "html": "<p>This is a paragraph.</p>",
+                "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
+                "frontmatter": {
+                    "date": "2017-07-12T17:12:33.962Z",
+                    "path": "/test",
+                    "title": "Test title",
                     "tags": [
                         "latin",
                         "sample"
