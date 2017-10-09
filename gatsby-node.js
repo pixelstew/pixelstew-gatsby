@@ -1,5 +1,36 @@
 const path = require("path");
 
+const createPagination = (createPage, edges) => {
+  const paginationTemplate = path.resolve(`src/templates/paginatedPostList.js`);
+  const paginateSize = 5;
+
+  //Split posts into arrays of length equal to number posts on each page/paginateSize
+  const groupedPages = edges
+    .map((edge, index) => {
+      return index % paginateSize === 0
+        ? edges.slice(index, index + paginateSize)
+        : null;
+    })
+    .filter(item => item);
+
+  //Create new indexed route for each array
+  groupedPages.forEach((group, index, groups) => {
+    const last = index === groups.length - 1 ? true : false;
+    return index === 0
+      ? false
+      : createPage({
+          path: `/${index + 1}`,
+          component: paginationTemplate,
+          context: {
+            group,
+            // Avoid showing 'Next' link if this is the last page
+            last,
+            index: index + 1
+          }
+        });
+  });
+};
+
 const createTagPages = (createPage, edges) => {
   const tagTemplate = path.resolve(`src/templates/tags.js`);
   const posts = {};
@@ -68,6 +99,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     const posts = result.data.allMarkdownRemark.edges;
 
     createTagPages(createPage, posts);
+    createPagination(createPage, posts);
 
     posts.forEach(({ node }, index) => {
       const prev = index === 0 ? false : posts[index - 1];

@@ -1,7 +1,7 @@
 {
     "data": {
         "allSitePage": {
-            "totalCount": 9,
+            "totalCount": 10,
             "edges": [
                 {
                     "node": {
@@ -20,17 +20,22 @@
                 },
                 {
                     "node": {
+                        "path": "/2"
+                    }
+                },
+                {
+                    "node": {
                         "path": "/building_this_site"
                     }
                 },
                 {
                     "node": {
-                        "path": "/third-post"
+                        "path": "/test"
                     }
                 },
                 {
                     "node": {
-                        "path": "/test"
+                        "path": "/third-post"
                     }
                 },
                 {

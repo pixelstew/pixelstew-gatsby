@@ -39,10 +39,10 @@ const GitHub = styled(GitHubLogo)`
     right: 5rem;
   }
   & svg {
-    transition: fill ${Theme.transition} ease;
-    fill: ${Theme.primary};
+    transition: opacity ${Theme.transition} ease;
+    fill: ${Theme.secondary};
     &:hover {
-      fill: ${Theme.secondary};
+      opacity: 0.7;
     }
     &:active {
       transform: ${Theme.scale};

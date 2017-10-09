@@ -29,10 +29,10 @@ const Twitter = styled(TwitterLogo)`
     top: 2.2rem;
   }
   & svg {
-    transition: fill ${Theme.transition} ease;
-    fill: ${Theme.primary};
+    transition: opacity ${Theme.transition} ease;
+    fill: ${Theme.secondary};
     &:hover {
-      fill: ${Theme.secondary};
+      opacity: 0.7;
     }
     &:active {
       transform: ${Theme.scale};

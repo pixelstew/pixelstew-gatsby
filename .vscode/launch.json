@@ -5,16 +5,24 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Launch",
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
-      "program": "${workspaceFolder}/app.js"
-    },
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "Launch Program",
-      "program": "${workspaceFolder}/gatsby-node.js"
+      "protocol": "inspector",
+      "program": "${workspaceRoot}/node_modules/.bin/gatsby",
+      "args": ["develop", "-p", "7777"],
+      "stopOnEntry": false,
+      "cwd": "${workspaceRoot}",
+      "preLaunchTask": null,
+      "runtimeExecutable": null,
+      "runtimeArgs": ["--nolazy"],
+      "env": {
+        "NODE_ENV": "development",
+        "DEBUG": "gatsby:*"
+      },
+      "console": "integratedTerminal",
+      "sourceMaps": true,
+      "outFiles": []
     }
   ]
 }

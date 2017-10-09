@@ -6,7 +6,7 @@ import Theme from "../components/pixelstewTheme";
 
 export default function Tags({ pathContext }) {
   const { posts, post, tag } = pathContext;
-  const Tags = posts.forEach;
+  //const Tags = posts.forEach;
   if (tag) {
     return (
       <div>

@@ -1,9 +1,12 @@
 import React from "react";
 import Helmet from "react-helmet";
 import PostPreview from "../components/PostPreview";
+import Link from "gatsby-link";
+import config from "../config";
 
 export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
+  const paginate = 5;
   return (
     <div>
       <h1>
@@ -12,19 +15,23 @@ export default function Index({ data }) {
       </h1>
       <hr />
       <div className="blog-posts">
-        {posts
-          .filter(post => post.node.frontmatter.title.length > 0)
-          .map(({ node: post }) => {
-            return <PostPreview post={post} key={post.id} />;
-          })}
+        {posts.map(({ node: post }, index) => {
+          return index < paginate ? (
+            <PostPreview post={post} key={post.id} />
+          ) : null;
+        })}
       </div>
+      {posts.length > paginate && <Link to="/2">Next &rarr;</Link>}
     </div>
   );
 }
 
 export const pageQuery = graphql`
   query IndexQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(
+      limit: 1000
+      sort: { order: DESC, fields: [frontmatter___date] }
+    ) {
       edges {
         node {
           excerpt(pruneLength: 250)

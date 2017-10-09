@@ -28,6 +28,13 @@
         "path": "/tags/sample"
     },
     {
+        "componentChunkName": "component---src-templates-paginated-post-list-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "2.json",
+        "path": "/2"
+    },
+    {
         "componentChunkName": "component---src-templates-blog-post-js",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
@@ -38,15 +45,15 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "third-post.json",
-        "path": "/third-post"
+        "jsonName": "test.json",
+        "path": "/test"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "test.json",
-        "path": "/test"
+        "jsonName": "third-post.json",
+        "path": "/third-post"
     },
     {
         "componentChunkName": "component---src-pages-404-js",

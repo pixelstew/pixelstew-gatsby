@@ -20,12 +20,12 @@
                 },
                 {
                     "node": {
-                        "excerpt": "",
-                        "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
+                        "excerpt": "This is a paragraph.",
+                        "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
                         "frontmatter": {
-                            "title": "Third Post",
+                            "title": "Test title",
                             "date": "July 12, 2017",
-                            "path": "/third-post",
+                            "path": "/test",
                             "image": "http://lorempixel.com/400/225/",
                             "tags": [
                                 "latin",
@@ -36,12 +36,12 @@
                 },
                 {
                     "node": {
-                        "excerpt": "This is a paragraph.",
-                        "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
+                        "excerpt": "",
+                        "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
                         "frontmatter": {
-                            "title": "Test title",
+                            "title": "Third Post",
                             "date": "July 12, 2017",
-                            "path": "/test",
+                            "path": "/third-post",
                             "image": "http://lorempixel.com/400/225/",
                             "tags": [
                                 "latin",
