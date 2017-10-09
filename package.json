@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "enzyme": "^3.1.0",
     "gatsby": "^1.9.36",
     "gatsby-link": "^1.6.15",
     "gatsby-plugin-catch-links": "^1.0.8",
@@ -14,19 +15,19 @@
     "gatsby-remark-prismjs": "^1.2.8",
     "gatsby-source-filesystem": "^1.5.1",
     "gatsby-transformer-remark": "^1.7.10",
+    "jest": "^21.2.1",
     "prism-themes": "^1.0.0",
     "styled-components": "^2.2.0"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format":
+      "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
+    "test": "jest"
   },
   "devDependencies": {
     "prettier": "^1.6.1"
