@@ -11,7 +11,7 @@ const Preview = props => {
           <Link to={props.post.frontmatter.path}>
             <picture className="intrinsic intrinsic--16x9">
               <source
-                media="(min-width: 500px)"
+                media="(min-width: 550px)"
                 srcSet={props.post.frontmatter.image}
               />
               <img
@@ -28,15 +28,15 @@ const Preview = props => {
               {props.post.frontmatter.title}
             </Link>
           </h2>
-          <h3>{props.post.frontmatter.date}</h3>
+          <h4>{props.post.frontmatter.date}</h4>
         </div>
       </div>
-      <p>{props.post.excerpt}</p>
+      <p>{props.post.excerpt}<Link to={props.post.frontmatter.path}>read more</Link></p>
     </div>
   );
 };
 
-const PostPreview = styled(Preview)`
+const PostPreview = styled(Preview) `
   margin-bottom: 5rem;
   .flex-container {
     display: flex;
@@ -44,11 +44,12 @@ const PostPreview = styled(Preview)`
   }
   h2 {
     margin: -0.9rem 0;
+    a{
+      font-weight: 300;
+    }
   }
-  h3 {
+  h4 {
     margin-top: 1rem;
-    font-size: 90%;
-    font-weight: 500;
   }
   .post-image {
     flex-shrink: 0;
@@ -60,7 +61,7 @@ const PostPreview = styled(Preview)`
   }
   .post-title {
     flex-grow: 3;
-    padding-left: 1rem;
+    padding-left: .5rem;
   }
   .intrinsic {
     display: block;

@@ -5,6 +5,7 @@ exports.components = {
   "component---cache-dev-404-page-js": require("gatsby-module-loader?name=component---cache-dev-404-page-js!/Users/Rob/localdev/pixelstew-gatsby/.cache/dev-404-page.js"),
   "component---src-templates-tags-js": require("gatsby-module-loader?name=component---src-templates-tags-js!/Users/Rob/localdev/pixelstew-gatsby/src/templates/tags.js"),
   "component---src-templates-paginated-post-list-js": require("gatsby-module-loader?name=component---src-templates-paginated-post-list-js!/Users/Rob/localdev/pixelstew-gatsby/src/templates/paginatedPostList.js"),
+  "component---src-templates-blog-post-js": require("gatsby-module-loader?name=component---src-templates-blog-post-js!/Users/Rob/localdev/pixelstew-gatsby/src/templates/blog-post.js"),
   "component---src-pages-404-js": require("gatsby-module-loader?name=component---src-pages-404-js!/Users/Rob/localdev/pixelstew-gatsby/src/pages/404.js")
 }
 
@@ -20,9 +21,11 @@ exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/Rob/localdev/pixelstew-gatsby/.cache/json/layout-index.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/Rob/localdev/pixelstew-gatsby/.cache/json/index.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/Rob/localdev/pixelstew-gatsby/.cache/json/layout-index.json"),
-  "2.json": require("gatsby-module-loader?name=path---2!/Users/Rob/localdev/pixelstew-gatsby/.cache/json/2.json"),
+  "building-this-site.json": require("gatsby-module-loader?name=path---building-this-site!/Users/Rob/localdev/pixelstew-gatsby/.cache/json/building-this-site.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/Rob/localdev/pixelstew-gatsby/.cache/json/layout-index.json"),
-  "3.json": require("gatsby-module-loader?name=path---3!/Users/Rob/localdev/pixelstew-gatsby/.cache/json/3.json"),
+  "third-post.json": require("gatsby-module-loader?name=path---third-post!/Users/Rob/localdev/pixelstew-gatsby/.cache/json/third-post.json"),
+  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/Rob/localdev/pixelstew-gatsby/.cache/json/layout-index.json"),
+  "test.json": require("gatsby-module-loader?name=path---test!/Users/Rob/localdev/pixelstew-gatsby/.cache/json/test.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/Rob/localdev/pixelstew-gatsby/.cache/json/layout-index.json"),
   "404.json": require("gatsby-module-loader?name=path---404!/Users/Rob/localdev/pixelstew-gatsby/.cache/json/404.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/Rob/localdev/pixelstew-gatsby/.cache/json/layout-index.json"),

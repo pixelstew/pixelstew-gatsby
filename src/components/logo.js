@@ -70,15 +70,17 @@ const Logo = props => (
   </div>
 );
 
-const MainLogo = styled(Logo)`
+const MainLogo = styled(Logo) `
   max-width: 80%;
+  padding-top: 1.5rem;
   svg > path {
     fill: ${Theme.primary};
   }
   svg > g * {
     stroke: ${Theme.secondary};
   }
-  @media (min-width: 500px) {
+  @media (min-width: 550px) {
+    padding-top: 0;
     max-width: 20rem;
   }
 `;

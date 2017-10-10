@@ -11,17 +11,17 @@ const Tag = props => {
   );
 };
 
-const ThisTag = styled(Tag)`
+const ThisTag = styled(Tag) `
   transition: background ${Theme.transition} ease;
   background: ${Theme.secondary};
   text-decoration: none;
   font-weight: 300;
-  padding: 11px 15px;
+  padding: 11px 20px 12px;
   border: 2px solid ${Theme.secondary};
   border-radius: 15px;
   display: inline-block;
   color: #fff;
-  font-size: 0.8rem;
+  font-size: .8rem;
   margin: 0 0.5rem 0.5rem 0;
   &:hover,
   &:active {

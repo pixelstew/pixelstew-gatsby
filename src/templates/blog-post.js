@@ -10,17 +10,24 @@ import TagList from "../components/tagList";
 export default function Template({ data, pathContext }) {
   const { markdownRemark: post } = data; // data.markdownRemark holds our post data
   const { next, prev } = pathContext;
+  const SubHeading = styled.h4`
+    margin-top: -2rem;
+    font-weight: 500;
+  `
   return (
     <div className="blog-post-container">
       <Helmet title={`Pixesltew - ${post.frontmatter.title}`} />
       <div className="blog-post">
         <h1>{post.frontmatter.title}</h1>
+        <SubHeading>{post.frontmatter.date}</SubHeading>
+        <hr />
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
       </div>
-      <TagList list={post.frontmatter.tags || []} />
+      <hr />
+      {post.frontmatter.tags && <TagList list={post.frontmatter.tags || []} />}
       <NextPage next={next} prev={prev} theme={theme} />
     </div>
   );

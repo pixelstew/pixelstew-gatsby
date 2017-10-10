@@ -29,18 +29,17 @@ const GitHubLogo = props => {
   );
 };
 
-const GitHub = styled(GitHubLogo)`
+const GitHub = styled(GitHubLogo) `
   width: 30px;
   position: absolute;
   top: 50px;
   right: 1rem;
-  @media (min-width: 500px) {
+  @media (min-width: 550px) {
     top: 2rem;
     right: 5rem;
   }
   & svg {
     transition: opacity ${Theme.transition} ease;
-    fill: ${Theme.secondary};
     &:hover {
       opacity: 0.7;
     }

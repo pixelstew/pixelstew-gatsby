@@ -20,17 +20,16 @@ const TwitterLogo = props => {
   );
 };
 
-const Twitter = styled(TwitterLogo)`
+const Twitter = styled(TwitterLogo) `
   width: 30px;
   position: absolute;
   top: 10px;
   right: 1rem;
-  @media (min-width: 500px) {
+  @media (min-width: 550px) {
     top: 2.2rem;
   }
   & svg {
     transition: opacity ${Theme.transition} ease;
-    fill: ${Theme.secondary};
     &:hover {
       opacity: 0.7;
     }

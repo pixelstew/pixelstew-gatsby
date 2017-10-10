@@ -1,6 +1,9 @@
 const path = require("path");
 
 const createPostPages = (createPage, edges) => {
+
+  const blogPostTemplate = path.resolve(`src/templates/blog-post.js`);
+
   edges.forEach(({ node }, index) => {
     const prev = index === 0 ? false : edges[index - 1];
     const next = index === edges.length - 1 ? false : edges[index + 1];
@@ -16,8 +19,9 @@ const createPostPages = (createPage, edges) => {
 }
 
 const createPaginationPages = (createPage, edges) => {
+
   const paginationTemplate = path.resolve(`src/templates/paginatedPostList.js`);
-  const paginateSize = 1;
+  const paginateSize = 5;
 
   //Split posts into arrays of length equal to number posts on each page/paginateSize
   const groupedPages = edges
@@ -51,6 +55,7 @@ const createPaginationPages = (createPage, edges) => {
 };
 
 const createTagPages = (createPage, edges) => {
+
   const tagTemplate = path.resolve(`src/templates/tags.js`);
   const posts = {};
 
@@ -89,9 +94,9 @@ const createTagPages = (createPage, edges) => {
 
 
 exports.createPages = ({ boundActionCreators, graphql }) => {
+
   const { createPage } = boundActionCreators;
 
-  const blogPostTemplate = path.resolve(`src/templates/blog-post.js`);
   return graphql(`
     {
       allMarkdownRemark(
@@ -100,7 +105,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       ) {
         edges {
           node {
-            excerpt(pruneLength: 250)
+            excerpt(pruneLength: 200)
             html
             id
             frontmatter {
@@ -115,9 +120,11 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       }
     }
   `).then(result => {
+
       if (result.errors) {
         return Promise.reject(result.errors);
       }
+
       const posts = result.data.allMarkdownRemark.edges;
 
       createTagPages(createPage, posts);

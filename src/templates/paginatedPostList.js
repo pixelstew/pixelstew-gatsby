@@ -3,17 +3,28 @@ import GatsbyLink from "gatsby-link";
 import PostPreview from "../components/PostPreview";
 import TagList from "../components/tagList";
 import Theme from "../components/pixelstewTheme";
-import Link from "gatsby-link";
 import Config from "../../gatsby-config";
+import styled from "styled-components"
 
 export default function PaginatedPostList({ pathContext }) {
+  const Link = styled(GatsbyLink) `
+    text-decoration-skip: ink;
+    margin: 3rem 0;
+    color: ${Theme.secondary};
+    &.prev {
+      float: left;
+    }
+    &.next {
+      float: right;
+    }
+  `;
   const { group, index, first, last } = pathContext;
   const config = config;
   return (
     <div>
       {first ?
         <h1>
-          A website about websites. Posts by Rob Gilbert who makes yep... websites in foggy London town.
+          A website about websites.<br />Words by Rob Gilbert who makes websites for people and companies in London.
         </h1> :
         <h1>More posts...</h1>
       }
@@ -24,8 +35,8 @@ export default function PaginatedPostList({ pathContext }) {
           return <PostPreview post={post} key={post.id} />;
         })}
       </div>
-      {!first && <Link to={`/${index > 2 ? index - 1 : ""}`}>&larr; Previous</Link>}
-      {!last && <Link to={`/${index + 1}`}>Next &rarr;</Link>}
+      {!first && <Link className="prev" to={`/${index > 2 ? index - 1 : ""}`}>&larr; Previous</Link>}
+      {!last && <Link className="next" to={`/${index + 1}`}>Next &rarr;</Link>}
     </div>
   );
 }

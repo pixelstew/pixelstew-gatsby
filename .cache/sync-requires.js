@@ -6,6 +6,7 @@ exports.components = {
   "component---cache-dev-404-page-js": preferDefault(require("/Users/Rob/localdev/pixelstew-gatsby/.cache/dev-404-page.js")),
   "component---src-templates-tags-js": preferDefault(require("/Users/Rob/localdev/pixelstew-gatsby/src/templates/tags.js")),
   "component---src-templates-paginated-post-list-js": preferDefault(require("/Users/Rob/localdev/pixelstew-gatsby/src/templates/paginatedPostList.js")),
+  "component---src-templates-blog-post-js": preferDefault(require("/Users/Rob/localdev/pixelstew-gatsby/src/templates/blog-post.js")),
   "component---src-pages-404-js": preferDefault(require("/Users/Rob/localdev/pixelstew-gatsby/src/pages/404.js"))
 }
 
@@ -21,9 +22,11 @@ exports.json = {
   "layout-index.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/layout-index.json"),
   "index.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/index.json"),
   "layout-index.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/layout-index.json"),
-  "2.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/2.json"),
+  "building-this-site.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/building-this-site.json"),
   "layout-index.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/layout-index.json"),
-  "3.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/3.json"),
+  "third-post.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/third-post.json"),
+  "layout-index.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/layout-index.json"),
+  "test.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/test.json"),
   "layout-index.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/layout-index.json"),
   "404.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/404.json"),
   "layout-index.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/layout-index.json"),
