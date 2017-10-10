@@ -30,7 +30,9 @@ exports.json = {
   "layout-index.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/layout-index.json"),
   "404.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/404.json"),
   "layout-index.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/layout-index.json"),
-  "404-html.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/404-html.json")
+  "404-html.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/404-html.json"),
+  "layout-index.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/layout-index.json"),
+  "tags-test.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/tags-test.json")
 }
 
 exports.layouts = {

@@ -42,7 +42,8 @@
                         "title": "Test title",
                         "tags": [
                             "latin",
-                            "sample"
+                            "sample",
+                            "test"
                         ],
                         "image": "http://lorempixel.com/400/225/"
                     }
@@ -89,7 +90,26 @@
                         "title": "Test title",
                         "tags": [
                             "latin",
-                            "sample"
+                            "sample",
+                            "test"
+                        ],
+                        "image": "http://lorempixel.com/400/225/"
+                    }
+                }
+            ],
+            "test": [
+                {
+                    "excerpt": "This is an h2 This is a paragraph.",
+                    "html": "<h2>This is an h2</h2>\n<p>This is a paragraph.</p>",
+                    "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
+                    "frontmatter": {
+                        "date": "July 12, 2017",
+                        "path": "/test",
+                        "title": "Test title",
+                        "tags": [
+                            "latin",
+                            "sample",
+                            "test"
                         ],
                         "image": "http://lorempixel.com/400/225/"
                     }

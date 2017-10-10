@@ -29,7 +29,9 @@ exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/Rob/localdev/pixelstew-gatsby/.cache/json/layout-index.json"),
   "404.json": require("gatsby-module-loader?name=path---404!/Users/Rob/localdev/pixelstew-gatsby/.cache/json/404.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/Rob/localdev/pixelstew-gatsby/.cache/json/layout-index.json"),
-  "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/Rob/localdev/pixelstew-gatsby/.cache/json/404-html.json")
+  "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/Rob/localdev/pixelstew-gatsby/.cache/json/404-html.json"),
+  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/Rob/localdev/pixelstew-gatsby/.cache/json/layout-index.json"),
+  "tags-test.json": require("gatsby-module-loader?name=path---tags-test!/Users/Rob/localdev/pixelstew-gatsby/.cache/json/tags-test.json")
 }
 
 exports.layouts = {

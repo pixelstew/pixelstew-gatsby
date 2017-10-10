@@ -39,7 +39,8 @@
                 "title": "Test title",
                 "tags": [
                     "latin",
-                    "sample"
+                    "sample",
+                    "test"
                 ],
                 "image": "http://lorempixel.com/400/225/"
             }
