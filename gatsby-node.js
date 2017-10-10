@@ -1,7 +1,7 @@
 const path = require("path");
 
 const createPostPages = (createPage, edges) => {
-  posts.forEach(({ node }, index) => {
+  edges.forEach(({ node }, index) => {
     const prev = index === 0 ? false : posts[index - 1];
     const next = index === posts.length - 1 ? false : posts[index + 1];
     createPage({

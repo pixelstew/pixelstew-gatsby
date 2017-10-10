@@ -6,26 +6,10 @@ import Logo from "../components/logo";
 import Theme from "../components/pixelstewTheme";
 import Twitter from "../components/twitter";
 import GitHub from "../components/github";
+import Header from "../components/header"
 
 import "./index.css";
 import "prism-themes/themes/prism-duotone-space.css";
-
-const Header = () => (
-  <div
-    style={{
-      margin: "0 auto",
-      padding: ".5rem 1.0875rem",
-      maxWidth: "900px",
-      position: "relative"
-    }}
-  >
-    <Link to="/">
-      <Logo theme={Theme} />
-    </Link>
-    <GitHub theme={Theme} />
-    <Twitter theme={Theme} />
-  </div>
-);
 
 const TemplateWrapper = ({ children }) => (
   <div>

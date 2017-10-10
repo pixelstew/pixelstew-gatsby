@@ -1,0 +1,50 @@
+{
+    "data": {
+        "allSitePage": {
+            "totalCount": 8,
+            "edges": [
+                {
+                    "node": {
+                        "path": "/tags"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tags/latin"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tags/sample"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/2"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/3"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/404/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/404.html"
+                    }
+                }
+            ]
+        }
+    },
+    "pathContext": {}
+}

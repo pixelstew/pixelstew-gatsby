@@ -3,7 +3,7 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
-  "component---node-modules-gatsby-plugin-offline-app-shell-js": preferDefault(require("/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-offline/app-shell.js")),
+  "component---cache-dev-404-page-js": preferDefault(require("/Users/Rob/localdev/pixelstew-gatsby/.cache/dev-404-page.js")),
   "component---src-templates-tags-js": preferDefault(require("/Users/Rob/localdev/pixelstew-gatsby/src/templates/tags.js")),
   "component---src-templates-paginated-post-list-js": preferDefault(require("/Users/Rob/localdev/pixelstew-gatsby/src/templates/paginatedPostList.js")),
   "component---src-pages-404-js": preferDefault(require("/Users/Rob/localdev/pixelstew-gatsby/src/pages/404.js"))
@@ -11,7 +11,7 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/layout-index.json"),
-  "offline-plugin-app-shell-fallback.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/offline-plugin-app-shell-fallback.json"),
+  "dev-404-page.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/dev-404-page.json"),
   "layout-index.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/layout-index.json"),
   "tags.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/tags.json"),
   "layout-index.json": require("/Users/Rob/localdev/pixelstew-gatsby/.cache/json/layout-index.json"),
