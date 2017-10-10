@@ -7,7 +7,7 @@
       "layout": "index",
       "jsonName": "dev-404-page.json",
       "internalComponentName": "ComponentDev404Page",
-      "updatedAt": 1507670870367,
+      "updatedAt": 1507672178365,
       "context": {},
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d5092876d90d79c6fdd86324350ffbb6",
+        "contentDigest": "323bacfa2469c2d31f074b2e87f98fb3",
         "owner": "internal-data-bridge"
       }
     },
@@ -1062,7 +1062,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9dc2237a8b26b2d481da841b04f3a4b6",
+        "contentDigest": "5d513d892930b2d4ce5debea08099236",
         "mediaType": "text/markdown",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -1071,11 +1071,11 @@
       "absolutePath": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md",
       "relativePath": "220917_test_post/index.md",
       "extension": "md",
-      "size": 164,
-      "prettySize": "164 B",
-      "modifiedTime": "2017-10-07T07:22:59.000Z",
-      "accessTime": "2017-10-10T21:27:49.000Z",
-      "changeTime": "2017-10-07T07:22:59.000Z",
+      "size": 184,
+      "prettySize": "184 B",
+      "modifiedTime": "2017-10-10T21:49:37.000Z",
+      "accessTime": "2017-10-10T21:49:38.000Z",
+      "changeTime": "2017-10-10T21:49:37.000Z",
       "birthTime": "2017-10-07T07:22:59.000Z",
       "root": "/",
       "dir": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post",
@@ -1091,13 +1091,13 @@
       "blksize": 4096,
       "ino": 7383880,
       "blocks": 8,
-      "atimeMs": 1507670869000,
-      "mtimeMs": 1507360979000,
-      "ctimeMs": 1507360979000,
+      "atimeMs": 1507672178000,
+      "mtimeMs": 1507672177000,
+      "ctimeMs": 1507672177000,
       "birthtimeMs": 1507360979000,
-      "atime": "2017-10-10T21:27:49.000Z",
-      "mtime": "2017-10-07T07:22:59.000Z",
-      "ctime": "2017-10-07T07:22:59.000Z",
+      "atime": "2017-10-10T21:49:38.000Z",
+      "mtime": "2017-10-10T21:49:37.000Z",
+      "ctime": "2017-10-10T21:49:37.000Z",
       "birthtime": "2017-10-07T07:22:59.000Z"
     },
     "/Users/Rob/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark": {
@@ -1128,8 +1128,8 @@
       "children": [],
       "parent": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file",
       "internal": {
-        "content": "---\npath: \"/test\"\ndate: \"2017-07-12T17:12:33.962Z\"\ntitle: \"Test title\"\nimage: \"http://lorempixel.com/400/225/\"\ntags: [\"latin\", \"sample\"]\n---\n\nThis is a paragraph.\n\n",
-        "contentDigest": "8197d8ca0e5586e1c340cc7001c179be",
+        "content": "---\npath: \"/test\"\ndate: \"2017-07-12T17:12:33.962Z\"\ntitle: \"Test title\"\nimage: \"http://lorempixel.com/400/225/\"\ntags: [\"latin\", \"sample\"]\n---\n\n## This is an h2\n\nThis is a paragraph.\n\n\n\n",
+        "contentDigest": "b5850ff14de82030d282f09b8b668b0d",
         "type": "MarkdownRemark",
         "owner": "gatsby-transformer-remark"
       },
@@ -1206,8 +1206,8 @@
               }
             },
             {
-              "excerpt": "This is a paragraph.",
-              "html": "<p>This is a paragraph.</p>",
+              "excerpt": "This is an h2 This is a paragraph.",
+              "html": "<h2>This is an h2</h2>\n<p>This is a paragraph.</p>",
               "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
               "frontmatter": {
                 "date": "July 12, 2017",
@@ -1253,8 +1253,8 @@
               }
             },
             {
-              "excerpt": "This is a paragraph.",
-              "html": "<p>This is a paragraph.</p>",
+              "excerpt": "This is an h2 This is a paragraph.",
+              "html": "<h2>This is an h2</h2>\n<p>This is a paragraph.</p>",
               "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
               "frontmatter": {
                 "date": "July 12, 2017",
@@ -1274,7 +1274,7 @@
       "layout": "index",
       "jsonName": "tags.json",
       "internalComponentName": "ComponentTags",
-      "updatedAt": 1507670870574,
+      "updatedAt": 1507672178416,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/Rob/localdev/pixelstew-gatsby/src/templates/tags.js",
@@ -1283,7 +1283,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "06179fb4c77749d48f987b157c6dcd47",
+        "contentDigest": "c2771e69767797848b97b6c16b46f692",
         "owner": "internal-data-bridge"
       }
     },
@@ -1324,8 +1324,8 @@
               }
             },
             {
-              "excerpt": "This is a paragraph.",
-              "html": "<p>This is a paragraph.</p>",
+              "excerpt": "This is an h2 This is a paragraph.",
+              "html": "<h2>This is an h2</h2>\n<p>This is a paragraph.</p>",
               "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
               "frontmatter": {
                 "date": "July 12, 2017",
@@ -1371,8 +1371,8 @@
               }
             },
             {
-              "excerpt": "This is a paragraph.",
-              "html": "<p>This is a paragraph.</p>",
+              "excerpt": "This is an h2 This is a paragraph.",
+              "html": "<h2>This is an h2</h2>\n<p>This is a paragraph.</p>",
               "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
               "frontmatter": {
                 "date": "July 12, 2017",
@@ -1419,8 +1419,8 @@
             }
           },
           {
-            "excerpt": "This is a paragraph.",
-            "html": "<p>This is a paragraph.</p>",
+            "excerpt": "This is an h2 This is a paragraph.",
+            "html": "<h2>This is an h2</h2>\n<p>This is a paragraph.</p>",
             "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
             "frontmatter": {
               "date": "July 12, 2017",
@@ -1440,7 +1440,7 @@
       "layout": "index",
       "jsonName": "tags-latin.json",
       "internalComponentName": "ComponentTagsLatin",
-      "updatedAt": 1507670870575,
+      "updatedAt": 1507672178418,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/Rob/localdev/pixelstew-gatsby/src/templates/tags.js",
@@ -1449,7 +1449,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c39c77d210cd3b48d563862cf1ebdf1a",
+        "contentDigest": "1d163402f08b7f09a16ba0a037f17e5a",
         "owner": "internal-data-bridge"
       }
     },
@@ -1490,8 +1490,8 @@
               }
             },
             {
-              "excerpt": "This is a paragraph.",
-              "html": "<p>This is a paragraph.</p>",
+              "excerpt": "This is an h2 This is a paragraph.",
+              "html": "<h2>This is an h2</h2>\n<p>This is a paragraph.</p>",
               "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
               "frontmatter": {
                 "date": "July 12, 2017",
@@ -1537,8 +1537,8 @@
               }
             },
             {
-              "excerpt": "This is a paragraph.",
-              "html": "<p>This is a paragraph.</p>",
+              "excerpt": "This is an h2 This is a paragraph.",
+              "html": "<h2>This is an h2</h2>\n<p>This is a paragraph.</p>",
               "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
               "frontmatter": {
                 "date": "July 12, 2017",
@@ -1585,8 +1585,8 @@
             }
           },
           {
-            "excerpt": "This is a paragraph.",
-            "html": "<p>This is a paragraph.</p>",
+            "excerpt": "This is an h2 This is a paragraph.",
+            "html": "<h2>This is an h2</h2>\n<p>This is a paragraph.</p>",
             "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
             "frontmatter": {
               "date": "July 12, 2017",
@@ -1606,7 +1606,7 @@
       "layout": "index",
       "jsonName": "tags-sample.json",
       "internalComponentName": "ComponentTagsSample",
-      "updatedAt": 1507670870576,
+      "updatedAt": 1507672178419,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/Rob/localdev/pixelstew-gatsby/src/templates/tags.js",
@@ -1615,7 +1615,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e6e333e4681822cd0fe1ae8e64c89a3c",
+        "contentDigest": "8d328eab3da7917d6a8f4979ad9b6706",
         "owner": "internal-data-bridge"
       }
     },
@@ -1660,8 +1660,8 @@
           },
           {
             "node": {
-              "excerpt": "This is a paragraph.",
-              "html": "<p>This is a paragraph.</p>",
+              "excerpt": "This is an h2 This is a paragraph.",
+              "html": "<h2>This is an h2</h2>\n<p>This is a paragraph.</p>",
               "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
               "frontmatter": {
                 "date": "July 12, 2017",
@@ -1684,7 +1684,7 @@
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1507670870577,
+      "updatedAt": 1507672178421,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/Rob/localdev/pixelstew-gatsby/src/templates/paginatedPostList.js",
@@ -1693,7 +1693,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bf88071dc346abedd38c314996f22904",
+        "contentDigest": "25418c70f806c11cd536437177a90563",
         "owner": "internal-data-bridge"
       }
     },
@@ -1721,7 +1721,7 @@
       "layout": "index",
       "jsonName": "building-this-site.json",
       "internalComponentName": "ComponentBuildingThisSite",
-      "updatedAt": 1507670870578,
+      "updatedAt": 1507672178424,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/Rob/localdev/pixelstew-gatsby/src/templates/blog-post.js",
@@ -1730,7 +1730,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "39f25bfe2c8bd5b723c536b4492a836c",
+        "contentDigest": "315a27ea2e80cfaa1b44279ce0b7e722",
         "owner": "internal-data-bridge"
       }
     },
@@ -1754,8 +1754,8 @@
           }
         },
         "next": {
-          "excerpt": "This is a paragraph.",
-          "html": "<p>This is a paragraph.</p>",
+          "excerpt": "This is an h2 This is a paragraph.",
+          "html": "<h2>This is an h2</h2>\n<p>This is a paragraph.</p>",
           "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
           "frontmatter": {
             "date": "July 12, 2017",
@@ -1773,7 +1773,7 @@
       "layout": "index",
       "jsonName": "third-post.json",
       "internalComponentName": "ComponentThirdPost",
-      "updatedAt": 1507670870579,
+      "updatedAt": 1507672178426,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/Rob/localdev/pixelstew-gatsby/src/templates/blog-post.js",
@@ -1782,7 +1782,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6fe3eaf2ebf709acd62fe0daedf5d3ec",
+        "contentDigest": "0797b0b6c831281a84e3feb2ef65e8d6",
         "owner": "internal-data-bridge"
       }
     },
@@ -1810,7 +1810,7 @@
       "layout": "index",
       "jsonName": "test.json",
       "internalComponentName": "ComponentTest",
-      "updatedAt": 1507670870579,
+      "updatedAt": 1507672178427,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/Rob/localdev/pixelstew-gatsby/src/templates/blog-post.js",
@@ -1819,7 +1819,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1f89f18843512c8d92e52c0eb0a8be95",
+        "contentDigest": "fec1bdaa407600fb2cb6fc866607b4ba",
         "owner": "internal-data-bridge"
       }
     },
