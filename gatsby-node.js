@@ -2,8 +2,8 @@ const path = require("path");
 
 const createPostPages = (createPage, edges) => {
   edges.forEach(({ node }, index) => {
-    const prev = index === 0 ? false : posts[index - 1];
-    const next = index === posts.length - 1 ? false : posts[index + 1];
+    const prev = index === 0 ? false : edges[index - 1];
+    const next = index === edges.length - 1 ? false : edges[index + 1];
     createPage({
       path: node.frontmatter.path,
       component: blogPostTemplate,

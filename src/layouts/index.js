@@ -7,6 +7,7 @@ import Theme from "../components/pixelstewTheme";
 import Twitter from "../components/twitter";
 import GitHub from "../components/github";
 import Header from "../components/header"
+import Footer from "../components/footer"
 
 import "./index.css";
 import "prism-themes/themes/prism-duotone-space.css";
@@ -14,7 +15,7 @@ import "prism-themes/themes/prism-duotone-space.css";
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Pixesltew"
       meta={[
         { name: "description", content: "Sample" },
         { name: "keywords", content: "sample, something" }
@@ -30,6 +31,7 @@ const TemplateWrapper = ({ children }) => (
     >
       {children()}
     </article>
+    <Footer title='Pixelstew' />
   </div>
 );
 
