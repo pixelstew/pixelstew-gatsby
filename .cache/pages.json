@@ -1,5 +1,12 @@
 [
     {
+        "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "offline-plugin-app-shell-fallback.json",
+        "path": "/offline-plugin-app-shell-fallback/"
+    },
+    {
         "componentChunkName": "component---src-templates-tags-js",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
@@ -21,25 +28,25 @@
         "path": "/tags/sample"
     },
     {
-        "componentChunkName": "component---src-templates-blog-post-js",
+        "componentChunkName": "component---src-templates-paginated-post-list-js",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "building-this-site.json",
-        "path": "/building_this_site"
+        "jsonName": "index.json",
+        "path": "/"
     },
     {
-        "componentChunkName": "component---src-templates-blog-post-js",
+        "componentChunkName": "component---src-templates-paginated-post-list-js",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "third-post.json",
-        "path": "/third-post"
+        "jsonName": "2.json",
+        "path": "/2"
     },
     {
-        "componentChunkName": "component---src-templates-blog-post-js",
+        "componentChunkName": "component---src-templates-paginated-post-list-js",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "test.json",
-        "path": "/test"
+        "jsonName": "3.json",
+        "path": "/3"
     },
     {
         "componentChunkName": "component---src-pages-404-js",
@@ -47,13 +54,6 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "404.json",
         "path": "/404/"
-    },
-    {
-        "componentChunkName": "component---src-pages-index-js",
-        "layout": "index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "index.json",
-        "path": "/"
     },
     {
         "componentChunkName": "component---src-pages-404-js",

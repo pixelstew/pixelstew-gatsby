@@ -1,8 +1,23 @@
 const path = require("path");
 
-const createPagination = (createPage, edges) => {
+const createPostPages = (createPage, edges) => {
+  posts.forEach(({ node }, index) => {
+    const prev = index === 0 ? false : posts[index - 1];
+    const next = index === posts.length - 1 ? false : posts[index + 1];
+    createPage({
+      path: node.frontmatter.path,
+      component: blogPostTemplate,
+      context: {
+        prev: prev.node,
+        next: next.node
+      }
+    });
+  });
+}
+
+const createPaginationPages = (createPage, edges) => {
   const paginationTemplate = path.resolve(`src/templates/paginatedPostList.js`);
-  const paginateSize = 5;
+  const paginateSize = 1;
 
   //Split posts into arrays of length equal to number posts on each page/paginateSize
   const groupedPages = edges
@@ -15,19 +30,23 @@ const createPagination = (createPage, edges) => {
 
   //Create new indexed route for each array
   groupedPages.forEach((group, index, groups) => {
-    const last = index === groups.length - 1 ? true : false;
-    return index === 0
-      ? false
-      : createPage({
-          path: `/${index + 1}`,
-          component: paginationTemplate,
-          context: {
-            group,
-            // Avoid showing 'Next' link if this is the last page
-            last,
-            index: index + 1
-          }
-        });
+    // create route '/' for homepage and incremented route for subsequent pages
+    const pageIndex = index === 0 ? '' : index + 1
+    const paginationRoute = `/${pageIndex}`
+    // Avoid showing 'Previous' link on first page - passed to context
+    const first = index === 0 ? true : false;
+    // Avoid showing 'Next' link if this is the last page - passed to context
+    const last = index === groups.length - 1 && !first ? true : false;
+    return createPage({
+      path: paginationRoute,
+      component: paginationTemplate,
+      context: {
+        group,
+        first,
+        last,
+        index: index + 1
+      }
+    });
   });
 };
 
@@ -67,6 +86,8 @@ const createTagPages = (createPage, edges) => {
     });
   });
 };
+
+
 exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators;
 
@@ -83,35 +104,24 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
             html
             id
             frontmatter {
-              date
+              date(formatString: "MMMM DD, YYYY")
               path
               title
               tags
+              image
             }
           }
         }
       }
     }
   `).then(result => {
-    if (result.errors) {
-      return Promise.reject(result.errors);
-    }
-    const posts = result.data.allMarkdownRemark.edges;
+      if (result.errors) {
+        return Promise.reject(result.errors);
+      }
+      const posts = result.data.allMarkdownRemark.edges;
 
-    createTagPages(createPage, posts);
-    createPagination(createPage, posts);
-
-    posts.forEach(({ node }, index) => {
-      const prev = index === 0 ? false : posts[index - 1];
-      const next = index === posts.length - 1 ? false : posts[index + 1];
-      createPage({
-        path: node.frontmatter.path,
-        component: blogPostTemplate,
-        context: {
-          prev: prev.node,
-          next: next.node
-        } // additional data can be passed via context
-      });
+      createTagPages(createPage, posts);
+      createPaginationPages(createPage, posts);
+      createPostPages(createPage, posts);
     });
-  });
 };

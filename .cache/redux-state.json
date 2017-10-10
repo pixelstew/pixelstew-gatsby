@@ -12,14 +12,14 @@
       }
     },
     "Plugin component-page-creator": {
-      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "resolve": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/component-page-creator",
       "id": "Plugin component-page-creator",
       "name": "component-page-creator",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
-      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "pluginFilepath": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/component-page-creator",
       "packageJson": {
         "name": "component-page-creator",
         "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
@@ -40,20 +40,20 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2038d0fc928db570f1e74cc0c9ddde59",
+        "contentDigest": "81814b32fe904e1fbcba10a170f5c3ec",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin component-layout-creator": {
-      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "resolve": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "id": "Plugin component-layout-creator",
       "name": "component-layout-creator",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
-      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "pluginFilepath": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "packageJson": {
         "name": "component-layout-creator",
         "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
@@ -74,20 +74,20 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "fa1a18268832775752f468ddeb32bc69",
+        "contentDigest": "90d9d1d8f3bd6b56bcea20a40a662df5",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin internal-data-bridge": {
-      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "Plugin internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
-      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -104,20 +104,20 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "bd34864bdfbdf756fc0467d94b33e092",
+        "contentDigest": "3d7d6c03fcb014bc33fc6abe619bcd9b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin dev-404-page": {
-      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "Plugin dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
-      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -134,20 +134,20 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "47e57b934689be1c6d158ee238f2cc1c",
+        "contentDigest": "1248f056ccf79ae250573bf9807f8c60",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin prod-404": {
-      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "Plugin prod-404",
       "name": "prod-404",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
-      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -164,20 +164,20 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a17be29f9b2b16f6b81398242f6596a5",
+        "contentDigest": "9eb10b9629af7cb407649239bac7e880",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin query-runner": {
-      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "Plugin query-runner",
       "name": "query-runner",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
-      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -194,20 +194,20 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "04b452a0b756720e2ef5b37321213e88",
+        "contentDigest": "03d23e70b8eb7d7f4ec641a6b34974e8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-react-helmet": {
-      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-react-helmet",
+      "resolve": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
       "version": "1.0.6",
       "pluginOptions": {
         "plugins": []
       },
-      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Stub description for gatsby-plugin-react-helmet",
@@ -247,20 +247,20 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ff9b02d304bfa43d502efdd823abd84e",
+        "contentDigest": "257f08651369917a3efa3a5cf7bc6614",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-styled-components": {
-      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-styled-components",
+      "resolve": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-styled-components",
       "id": "Plugin gatsby-plugin-styled-components",
       "name": "gatsby-plugin-styled-components",
       "version": "1.0.5",
       "pluginOptions": {
         "plugins": []
       },
-      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-styled-components",
+      "pluginFilepath": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-styled-components",
       "packageJson": {
         "name": "gatsby-plugin-styled-components",
         "description": "Gatsby plugin to add support for styled components",
@@ -299,20 +299,20 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "573a1c1c5a152174fc4eeaa4ec92b82d",
+        "contentDigest": "b59dfff86ab82ec0917eddf9a53ca937",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-catch-links": {
-      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-catch-links",
+      "resolve": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-catch-links",
       "id": "Plugin gatsby-plugin-catch-links",
       "name": "gatsby-plugin-catch-links",
       "version": "1.0.8",
       "pluginOptions": {
         "plugins": []
       },
-      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-catch-links",
+      "pluginFilepath": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-catch-links",
       "packageJson": {
         "name": "gatsby-plugin-catch-links",
         "description": "Intercepts local links from markdown and other non-react pages and does a client-side pushState to avoid the browser having to refresh the page.",
@@ -350,22 +350,22 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "28f102a222cb7e02599f25a47e4cc8d4",
+        "contentDigest": "bfcfa7ebe1caf6c74406259b2f514b53",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-source-filesystem": {
-      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-source-filesystem",
+      "resolve": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby-source-filesystem",
       "id": "Plugin gatsby-source-filesystem",
       "name": "gatsby-source-filesystem",
       "version": "1.5.1",
       "pluginOptions": {
         "plugins": [],
-        "path": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages",
+        "path": "/Users/Rob/localdev/pixelstew-gatsby/src/pages",
         "name": "pages"
       },
-      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-source-filesystem",
+      "pluginFilepath": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby-source-filesystem",
       "packageJson": {
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
@@ -434,20 +434,20 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0c1b8f94a7527181ec0feeacc4ec38d9",
+        "contentDigest": "0298255b28167cf30e2febabd529516c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-transformer-remark": {
-      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-transformer-remark",
+      "resolve": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby-transformer-remark",
       "id": "Plugin gatsby-transformer-remark",
       "name": "gatsby-transformer-remark",
       "version": "1.7.10",
       "pluginOptions": {
         "plugins": [
           {
-            "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-remark-prismjs",
+            "resolve": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby-remark-prismjs",
             "id": "Plugin gatsby-remark-prismjs",
             "name": "gatsby-remark-prismjs",
             "version": "1.2.8",
@@ -455,11 +455,11 @@
               "plugins": [],
               "classPrefix": "language-"
             },
-            "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-remark-prismjs"
+            "pluginFilepath": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby-remark-prismjs"
           }
         ]
       },
-      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-transformer-remark",
+      "pluginFilepath": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby-transformer-remark",
       "packageJson": {
         "name": "gatsby-transformer-remark",
         "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
@@ -546,13 +546,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "382a272f68f494bedfe63ed1650e24ba",
+        "contentDigest": "e2847e0d174e4e5ee802afe192e9bc61",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-remark-prismjs": {
-      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-remark-prismjs",
+      "resolve": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby-remark-prismjs",
       "id": "Plugin gatsby-remark-prismjs",
       "name": "gatsby-remark-prismjs",
       "version": "1.2.8",
@@ -560,7 +560,7 @@
         "plugins": [],
         "classPrefix": "language-"
       },
-      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-remark-prismjs",
+      "pluginFilepath": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby-remark-prismjs",
       "packageJson": {
         "name": "gatsby-remark-prismjs",
         "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
@@ -616,13 +616,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cb37944c0e750e5589b56f5aa4b76199",
+        "contentDigest": "2f07ca1f37e0568f0c9f6deb661d2a45",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-manifest": {
-      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-manifest",
+      "resolve": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-manifest",
       "id": "Plugin gatsby-plugin-manifest",
       "name": "gatsby-plugin-manifest",
       "version": "1.0.8",
@@ -647,7 +647,7 @@
           }
         ]
       },
-      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-manifest",
+      "pluginFilepath": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-manifest",
       "packageJson": {
         "name": "gatsby-plugin-manifest",
         "description": "Gatsby plugin which adds a manifest.json to make sites progressive web apps",
@@ -692,20 +692,78 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "92e617d8b674737cebc6de8f43b9cb55",
+        "contentDigest": "747b7310aa47d0668343d824fed3debb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-offline": {
+      "resolve": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-offline",
+      "id": "Plugin gatsby-plugin-offline",
+      "name": "gatsby-plugin-offline",
+      "version": "1.0.9",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "1.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "sw-precache",
+            "version": "^5.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e56e69c6822b501139b9004ce90d7d4f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin default-site-plugin": {
-      "resolve": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby",
+      "resolve": "/Users/Rob/localdev/pixelstew-gatsby",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "2117decbd20d177ac1b25eedc2f5ba38",
+      "version": "f0767b094b02e04f9fd8a1fc6fa98e85",
       "pluginOptions": {
         "plugins": []
       },
-      "pluginFilepath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby",
+      "pluginFilepath": "/Users/Rob/localdev/pixelstew-gatsby",
       "packageJson": {
         "name": "gatsby-starter-default",
         "description": "Gatsby default starter",
@@ -717,6 +775,10 @@
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
+          {
+            "name": "enzyme",
+            "version": "^3.1.0"
+          },
           {
             "name": "gatsby",
             "version": "^1.9.36"
@@ -758,6 +820,10 @@
             "version": "^1.7.10"
           },
           {
+            "name": "jest",
+            "version": "^21.2.1"
+          },
+          {
             "name": "prism-themes",
             "version": "^1.0.0"
           },
@@ -779,7 +845,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "dd79c8182b039a4779b2ffa25e383396",
+        "contentDigest": "2920e2d2623093287f44f8e12ab187ee",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -791,18 +857,18 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2017-10-09T16:36:40.776Z",
+      "buildTime": "2017-10-10T12:33:27.650Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "42b991c45138f95c898304a909951a5e",
+        "contentDigest": "64e43e86786bd8908edb37e1c7ab7266",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
-    "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/404.js absPath of file": {
-      "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/404.js absPath of file",
+    "/Users/Rob/localdev/pixelstew-gatsby/src/pages/404.js absPath of file": {
+      "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/404.js absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
@@ -812,130 +878,85 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/404.js",
+      "absolutePath": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/404.js",
       "relativePath": "404.js",
       "extension": "js",
       "size": 198,
       "prettySize": "198 B",
-      "modifiedTime": "2017-09-21T14:21:53.000Z",
-      "accessTime": "2017-10-09T16:35:43.000Z",
-      "changeTime": "2017-09-21T17:22:04.000Z",
-      "birthTime": "2017-09-21T14:21:53.000Z",
+      "modifiedTime": "2017-09-28T22:54:38.000Z",
+      "accessTime": "2017-10-10T12:33:57.000Z",
+      "changeTime": "2017-09-28T22:54:38.000Z",
+      "birthTime": "2017-09-28T22:54:38.000Z",
       "root": "/",
-      "dir": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages",
+      "dir": "/Users/Rob/localdev/pixelstew-gatsby/src/pages",
       "base": "404.js",
       "ext": ".js",
       "name": "404",
       "dev": 16777218,
       "mode": 33188,
       "nlink": 1,
-      "uid": 1877399581,
-      "gid": 2017357157,
+      "uid": 503,
+      "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 34799488,
+      "ino": 7252637,
       "blocks": 8,
-      "atimeMs": 1507566943000,
-      "mtimeMs": 1506003713000,
-      "ctimeMs": 1506014524000,
-      "birthtimeMs": 1506003713000,
-      "atime": "2017-10-09T16:35:43.000Z",
-      "mtime": "2017-09-21T14:21:53.000Z",
-      "ctime": "2017-09-21T17:22:04.000Z",
-      "birthtime": "2017-09-21T14:21:53.000Z"
+      "atimeMs": 1507638837000,
+      "mtimeMs": 1506639278000,
+      "ctimeMs": 1506639278000,
+      "birthtimeMs": 1506639278000,
+      "atime": "2017-10-10T12:33:57.000Z",
+      "mtime": "2017-09-28T22:54:38.000Z",
+      "ctime": "2017-09-28T22:54:38.000Z",
+      "birthtime": "2017-09-28T22:54:38.000Z"
     },
-    "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/index.js absPath of file": {
-      "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/index.js absPath of file",
+    "/Users/Rob/localdev/pixelstew-gatsby/src/pages/.DS_Store absPath of file": {
+      "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/.DS_Store absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b8309dd34926eba268e152725b80be04",
-        "mediaType": "application/javascript",
+        "contentDigest": "a8370b36a6e3073c8d0b7aaf18b489e6",
+        "mediaType": "application/octet-stream",
         "type": "File",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/index.js",
-      "relativePath": "index.js",
-      "extension": "js",
-      "size": 1195,
-      "prettySize": "1.2 kB",
-      "modifiedTime": "2017-10-09T16:07:07.000Z",
-      "accessTime": "2017-10-09T16:35:43.000Z",
-      "changeTime": "2017-10-09T16:07:07.000Z",
-      "birthTime": "2017-10-06T10:09:37.000Z",
+      "absolutePath": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/.DS_Store",
+      "relativePath": ".DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2017-10-10T08:46:05.000Z",
+      "accessTime": "2017-10-10T12:33:57.000Z",
+      "changeTime": "2017-10-10T08:46:05.000Z",
+      "birthTime": "2017-10-10T08:46:05.000Z",
       "root": "/",
-      "dir": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages",
-      "base": "index.js",
-      "ext": ".js",
-      "name": "index",
+      "dir": "/Users/Rob/localdev/pixelstew-gatsby/src/pages",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
       "dev": 16777218,
       "mode": 33188,
       "nlink": 1,
-      "uid": 1877399581,
-      "gid": 2017357157,
+      "uid": 503,
+      "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 35262608,
-      "blocks": 8,
-      "atimeMs": 1507566943000,
-      "mtimeMs": 1507565227000,
-      "ctimeMs": 1507565227000,
-      "birthtimeMs": 1507284577000,
-      "atime": "2017-10-09T16:35:43.000Z",
-      "mtime": "2017-10-09T16:07:07.000Z",
-      "ctime": "2017-10-09T16:07:07.000Z",
-      "birthtime": "2017-10-06T10:09:37.000Z"
+      "ino": 7432086,
+      "blocks": 16,
+      "atimeMs": 1507638837000,
+      "mtimeMs": 1507625165000,
+      "ctimeMs": 1507625165000,
+      "birthtimeMs": 1507625165000,
+      "atime": "2017-10-10T12:33:57.000Z",
+      "mtime": "2017-10-10T08:46:05.000Z",
+      "ctime": "2017-10-10T08:46:05.000Z",
+      "birthtime": "2017-10-10T08:46:05.000Z"
     },
-    "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file": {
-      "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file",
+    "/Users/Rob/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file": {
+      "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file",
       "children": [
-        "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "2cdf0ae832a7d7a5da0f769e447f36c9",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md",
-      "relativePath": "051017_third_post/index.md",
-      "extension": "md",
-      "size": 146,
-      "prettySize": "146 B",
-      "modifiedTime": "2017-10-06T17:02:22.000Z",
-      "accessTime": "2017-10-09T16:35:43.000Z",
-      "changeTime": "2017-10-06T17:02:22.000Z",
-      "birthTime": "2017-10-06T13:23:02.000Z",
-      "root": "/",
-      "dir": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "dev": 16777218,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 1877399581,
-      "gid": 2017357157,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 35294767,
-      "blocks": 8,
-      "atimeMs": 1507566943000,
-      "mtimeMs": 1507309342000,
-      "ctimeMs": 1507309342000,
-      "birthtimeMs": 1507296182000,
-      "atime": "2017-10-09T16:35:43.000Z",
-      "mtime": "2017-10-06T17:02:22.000Z",
-      "ctime": "2017-10-06T17:02:22.000Z",
-      "birthtime": "2017-10-06T13:23:02.000Z"
-    },
-    "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file": {
-      "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file",
-      "children": [
-        "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark"
+        "/Users/Rob/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark"
       ],
       "parent": "___SOURCE___",
       "internal": {
@@ -945,42 +966,42 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md",
+      "absolutePath": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md",
       "relativePath": "210917_Building_this_site/index.md",
       "extension": "md",
       "size": 736,
       "prettySize": "736 B",
-      "modifiedTime": "2017-10-06T17:02:28.000Z",
-      "accessTime": "2017-10-09T16:35:43.000Z",
-      "changeTime": "2017-10-06T17:02:28.000Z",
-      "birthTime": "2017-10-06T13:23:02.000Z",
+      "modifiedTime": "2017-10-07T07:22:59.000Z",
+      "accessTime": "2017-10-10T12:33:57.000Z",
+      "changeTime": "2017-10-07T07:22:59.000Z",
+      "birthTime": "2017-10-07T07:22:59.000Z",
       "root": "/",
-      "dir": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site",
+      "dir": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site",
       "base": "index.md",
       "ext": ".md",
       "name": "index",
       "dev": 16777218,
       "mode": 33188,
       "nlink": 1,
-      "uid": 1877399581,
-      "gid": 2017357157,
+      "uid": 503,
+      "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 35294768,
+      "ino": 7383879,
       "blocks": 8,
-      "atimeMs": 1507566943000,
-      "mtimeMs": 1507309348000,
-      "ctimeMs": 1507309348000,
-      "birthtimeMs": 1507296182000,
-      "atime": "2017-10-09T16:35:43.000Z",
-      "mtime": "2017-10-06T17:02:28.000Z",
-      "ctime": "2017-10-06T17:02:28.000Z",
-      "birthtime": "2017-10-06T13:23:02.000Z"
+      "atimeMs": 1507638837000,
+      "mtimeMs": 1507360979000,
+      "ctimeMs": 1507360979000,
+      "birthtimeMs": 1507360979000,
+      "atime": "2017-10-10T12:33:57.000Z",
+      "mtime": "2017-10-07T07:22:59.000Z",
+      "ctime": "2017-10-07T07:22:59.000Z",
+      "birthtime": "2017-10-07T07:22:59.000Z"
     },
-    "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file": {
-      "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file",
+    "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file": {
+      "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file",
       "children": [
-        "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark"
+        "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark"
       ],
       "parent": "___SOURCE___",
       "internal": {
@@ -990,65 +1011,87 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md",
+      "absolutePath": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md",
       "relativePath": "220917_test_post/index.md",
       "extension": "md",
       "size": 164,
       "prettySize": "164 B",
-      "modifiedTime": "2017-10-06T17:02:32.000Z",
-      "accessTime": "2017-10-09T16:35:43.000Z",
-      "changeTime": "2017-10-06T17:02:32.000Z",
-      "birthTime": "2017-10-06T13:23:02.000Z",
+      "modifiedTime": "2017-10-07T07:22:59.000Z",
+      "accessTime": "2017-10-10T12:33:57.000Z",
+      "changeTime": "2017-10-07T07:22:59.000Z",
+      "birthTime": "2017-10-07T07:22:59.000Z",
       "root": "/",
-      "dir": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post",
+      "dir": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post",
       "base": "index.md",
       "ext": ".md",
       "name": "index",
       "dev": 16777218,
       "mode": 33188,
       "nlink": 1,
-      "uid": 1877399581,
-      "gid": 2017357157,
+      "uid": 503,
+      "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 35294769,
+      "ino": 7383880,
       "blocks": 8,
-      "atimeMs": 1507566943000,
-      "mtimeMs": 1507309352000,
-      "ctimeMs": 1507309352000,
-      "birthtimeMs": 1507296182000,
-      "atime": "2017-10-09T16:35:43.000Z",
-      "mtime": "2017-10-06T17:02:32.000Z",
-      "ctime": "2017-10-06T17:02:32.000Z",
-      "birthtime": "2017-10-06T13:23:02.000Z"
+      "atimeMs": 1507638837000,
+      "mtimeMs": 1507360979000,
+      "ctimeMs": 1507360979000,
+      "birthtimeMs": 1507360979000,
+      "atime": "2017-10-10T12:33:57.000Z",
+      "mtime": "2017-10-07T07:22:59.000Z",
+      "ctime": "2017-10-07T07:22:59.000Z",
+      "birthtime": "2017-10-07T07:22:59.000Z"
     },
-    "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file",
+    "/Users/Rob/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file": {
+      "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file",
+      "children": [
+        "/Users/Rob/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
       "internal": {
-        "content": "---\npath: \"/third-post\"\ndate: \"2017-07-12T17:12:33.962Z\"\ntitle: \"Third Post\"\nimage: \"http://lorempixel.com/400/225/\"\ntags: [\"latin\", \"sample\"]\n---",
-        "contentDigest": "c18c3122ce3f5490cd0ede81db853bef",
-        "type": "MarkdownRemark",
-        "owner": "gatsby-transformer-remark"
+        "contentDigest": "2cdf0ae832a7d7a5da0f769e447f36c9",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
       },
-      "frontmatter": {
-        "title": "Third Post",
-        "path": "/third-post",
-        "date": "2017-07-12T17:12:33.962Z",
-        "image": "http://lorempixel.com/400/225/",
-        "tags": [
-          "latin",
-          "sample"
-        ],
-        "parent": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file"
-      },
-      "fileAbsolutePath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md"
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md",
+      "relativePath": "051017_third_post/index.md",
+      "extension": "md",
+      "size": 146,
+      "prettySize": "146 B",
+      "modifiedTime": "2017-10-10T08:20:13.000Z",
+      "accessTime": "2017-10-10T12:33:57.000Z",
+      "changeTime": "2017-10-10T08:20:13.000Z",
+      "birthTime": "2017-10-10T08:20:13.000Z",
+      "root": "/",
+      "dir": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/051017_third_post",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 16777218,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 503,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 7427624,
+      "blocks": 8,
+      "atimeMs": 1507638837000,
+      "mtimeMs": 1507623613000,
+      "ctimeMs": 1507623613000,
+      "birthtimeMs": 1507623613000,
+      "atime": "2017-10-10T12:33:57.000Z",
+      "mtime": "2017-10-10T08:20:13.000Z",
+      "ctime": "2017-10-10T08:20:13.000Z",
+      "birthtime": "2017-10-10T08:20:13.000Z"
     },
-    "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
+    "/Users/Rob/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
       "children": [],
-      "parent": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file",
+      "parent": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file",
       "internal": {
         "content": "---\npath: \"/building_this_site\"\ndate: \"2017-10-05T23:10:43+00:00\"\ntitle: \"Building this site\"\nimage: \"http://lorempixel.com/400/225/\"\ntags: [\"latin\", \"sample\"]\n---\n\nSpicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim. \n\nIn rump bresaola cow, fatback consequat nostrud ut aliquip irure sed burgdoggen occaecat in sint. Cow pariatur laborum pancetta beef tongue dolor shankle aute kevin pork chop t-bone pig ex meatball. \n\nT-bone jerky do jowl shank, laboris adipisicing capicola drumstick rump chuck ground round non. Rump burgdoggen ball tip kielbasa proident.\n\n```css\nbody{\n  display:none;\n}\n```",
         "contentDigest": "7241cea0804a8eb09c645703bcf93f2a",
@@ -1064,14 +1107,14 @@
           "latin",
           "sample"
         ],
-        "parent": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file"
+        "parent": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file"
       },
-      "fileAbsolutePath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md"
+      "fileAbsolutePath": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md"
     },
-    "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
+    "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
       "children": [],
-      "parent": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file",
+      "parent": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file",
       "internal": {
         "content": "---\npath: \"/test\"\ndate: \"2017-07-12T17:12:33.962Z\"\ntitle: \"Test title\"\nimage: \"http://lorempixel.com/400/225/\"\ntags: [\"latin\", \"sample\"]\n---\n\nThis is a paragraph.\n\n",
         "contentDigest": "8197d8ca0e5586e1c340cc7001c179be",
@@ -1087,56 +1130,103 @@
           "latin",
           "sample"
         ],
-        "parent": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file"
+        "parent": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file"
       },
-      "fileAbsolutePath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md"
+      "fileAbsolutePath": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md"
+    },
+    "/Users/Rob/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: \"/third-post\"\ndate: \"2017-07-12T17:12:33.962Z\"\ntitle: \"Third Post\"\nimage: \"http://lorempixel.com/400/225/\"\ntags: [\"latin\", \"sample\"]\n---",
+        "contentDigest": "c18c3122ce3f5490cd0ede81db853bef",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Third Post",
+        "path": "/third-post",
+        "date": "2017-07-12T17:12:33.962Z",
+        "image": "http://lorempixel.com/400/225/",
+        "tags": [
+          "latin",
+          "sample"
+        ],
+        "parent": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md"
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "layout": "index",
+      "jsonName": "offline-plugin-app-shell-fallback.json",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "updatedAt": 1507638838575,
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
+      "pluginCreatorId": "Plugin gatsby-plugin-offline",
+      "componentPath": "/Users/Rob/localdev/pixelstew-gatsby/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a02c8035c368ac47464f60d1525348b5",
+        "owner": "internal-data-bridge"
+      }
     },
     "SitePage /tags": {
       "path": "/tags",
-      "component": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/templates/tags.js",
+      "component": "/Users/Rob/localdev/pixelstew-gatsby/src/templates/tags.js",
       "context": {
         "posts": {
           "latin": [
             {
               "excerpt": "Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim.  In rump bresaola cow, fatback consequat nostrud ut…",
               "html": "<p>Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim. </p>\n<p>In rump bresaola cow, fatback consequat nostrud ut aliquip irure sed burgdoggen occaecat in sint. Cow pariatur laborum pancetta beef tongue dolor shankle aute kevin pork chop t-bone pig ex meatball. </p>\n<p>T-bone jerky do jowl shank, laboris adipisicing capicola drumstick rump chuck ground round non. Rump burgdoggen ball tip kielbasa proident.</p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-css\"><code><span class=\"token selector\">body</span><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">display</span><span class=\"token punctuation\">:</span>none<span class=\"token punctuation\">;</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>\n      </div>",
-              "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
+              "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
               "frontmatter": {
-                "date": "2017-10-05T23:10:43+00:00",
+                "date": "October 05, 2017",
                 "path": "/building_this_site",
                 "title": "Building this site",
                 "tags": [
                   "latin",
                   "sample"
-                ]
-              }
-            },
-            {
-              "excerpt": "",
-              "html": "",
-              "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
-              "frontmatter": {
-                "date": "2017-07-12T17:12:33.962Z",
-                "path": "/third-post",
-                "title": "Third Post",
-                "tags": [
-                  "latin",
-                  "sample"
-                ]
+                ],
+                "image": "http://lorempixel.com/400/225/"
               }
             },
             {
               "excerpt": "This is a paragraph.",
               "html": "<p>This is a paragraph.</p>",
-              "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
+              "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
               "frontmatter": {
-                "date": "2017-07-12T17:12:33.962Z",
+                "date": "July 12, 2017",
                 "path": "/test",
                 "title": "Test title",
                 "tags": [
                   "latin",
                   "sample"
-                ]
+                ],
+                "image": "http://lorempixel.com/400/225/"
+              }
+            },
+            {
+              "excerpt": "",
+              "html": "",
+              "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
+              "frontmatter": {
+                "date": "July 12, 2017",
+                "path": "/third-post",
+                "title": "Third Post",
+                "tags": [
+                  "latin",
+                  "sample"
+                ],
+                "image": "http://lorempixel.com/400/225/"
               }
             }
           ],
@@ -1144,43 +1234,46 @@
             {
               "excerpt": "Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim.  In rump bresaola cow, fatback consequat nostrud ut…",
               "html": "<p>Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim. </p>\n<p>In rump bresaola cow, fatback consequat nostrud ut aliquip irure sed burgdoggen occaecat in sint. Cow pariatur laborum pancetta beef tongue dolor shankle aute kevin pork chop t-bone pig ex meatball. </p>\n<p>T-bone jerky do jowl shank, laboris adipisicing capicola drumstick rump chuck ground round non. Rump burgdoggen ball tip kielbasa proident.</p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-css\"><code><span class=\"token selector\">body</span><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">display</span><span class=\"token punctuation\">:</span>none<span class=\"token punctuation\">;</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>\n      </div>",
-              "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
+              "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
               "frontmatter": {
-                "date": "2017-10-05T23:10:43+00:00",
+                "date": "October 05, 2017",
                 "path": "/building_this_site",
                 "title": "Building this site",
                 "tags": [
                   "latin",
                   "sample"
-                ]
-              }
-            },
-            {
-              "excerpt": "",
-              "html": "",
-              "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
-              "frontmatter": {
-                "date": "2017-07-12T17:12:33.962Z",
-                "path": "/third-post",
-                "title": "Third Post",
-                "tags": [
-                  "latin",
-                  "sample"
-                ]
+                ],
+                "image": "http://lorempixel.com/400/225/"
               }
             },
             {
               "excerpt": "This is a paragraph.",
               "html": "<p>This is a paragraph.</p>",
-              "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
+              "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
               "frontmatter": {
-                "date": "2017-07-12T17:12:33.962Z",
+                "date": "July 12, 2017",
                 "path": "/test",
                 "title": "Test title",
                 "tags": [
                   "latin",
                   "sample"
-                ]
+                ],
+                "image": "http://lorempixel.com/400/225/"
+              }
+            },
+            {
+              "excerpt": "",
+              "html": "",
+              "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
+              "frontmatter": {
+                "date": "July 12, 2017",
+                "path": "/third-post",
+                "title": "Third Post",
+                "tags": [
+                  "latin",
+                  "sample"
+                ],
+                "image": "http://lorempixel.com/400/225/"
               }
             }
           ]
@@ -1190,65 +1283,68 @@
       "layout": "index",
       "jsonName": "tags.json",
       "internalComponentName": "ComponentTags",
-      "updatedAt": 1507567003150,
+      "updatedAt": 1507638838700,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/templates/tags.js",
+      "componentPath": "/Users/Rob/localdev/pixelstew-gatsby/src/templates/tags.js",
       "id": "SitePage /tags",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dad7848bdd4f0ca5a663b2945056d577",
+        "contentDigest": "5ed975db577d34aa41ffa4904f3b42e4",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /tags/latin": {
       "path": "/tags/latin",
-      "component": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/templates/tags.js",
+      "component": "/Users/Rob/localdev/pixelstew-gatsby/src/templates/tags.js",
       "context": {
         "posts": {
           "latin": [
             {
               "excerpt": "Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim.  In rump bresaola cow, fatback consequat nostrud ut…",
               "html": "<p>Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim. </p>\n<p>In rump bresaola cow, fatback consequat nostrud ut aliquip irure sed burgdoggen occaecat in sint. Cow pariatur laborum pancetta beef tongue dolor shankle aute kevin pork chop t-bone pig ex meatball. </p>\n<p>T-bone jerky do jowl shank, laboris adipisicing capicola drumstick rump chuck ground round non. Rump burgdoggen ball tip kielbasa proident.</p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-css\"><code><span class=\"token selector\">body</span><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">display</span><span class=\"token punctuation\">:</span>none<span class=\"token punctuation\">;</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>\n      </div>",
-              "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
+              "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
               "frontmatter": {
-                "date": "2017-10-05T23:10:43+00:00",
+                "date": "October 05, 2017",
                 "path": "/building_this_site",
                 "title": "Building this site",
                 "tags": [
                   "latin",
                   "sample"
-                ]
-              }
-            },
-            {
-              "excerpt": "",
-              "html": "",
-              "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
-              "frontmatter": {
-                "date": "2017-07-12T17:12:33.962Z",
-                "path": "/third-post",
-                "title": "Third Post",
-                "tags": [
-                  "latin",
-                  "sample"
-                ]
+                ],
+                "image": "http://lorempixel.com/400/225/"
               }
             },
             {
               "excerpt": "This is a paragraph.",
               "html": "<p>This is a paragraph.</p>",
-              "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
+              "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
               "frontmatter": {
-                "date": "2017-07-12T17:12:33.962Z",
+                "date": "July 12, 2017",
                 "path": "/test",
                 "title": "Test title",
                 "tags": [
                   "latin",
                   "sample"
-                ]
+                ],
+                "image": "http://lorempixel.com/400/225/"
+              }
+            },
+            {
+              "excerpt": "",
+              "html": "",
+              "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
+              "frontmatter": {
+                "date": "July 12, 2017",
+                "path": "/third-post",
+                "title": "Third Post",
+                "tags": [
+                  "latin",
+                  "sample"
+                ],
+                "image": "http://lorempixel.com/400/225/"
               }
             }
           ],
@@ -1256,43 +1352,46 @@
             {
               "excerpt": "Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim.  In rump bresaola cow, fatback consequat nostrud ut…",
               "html": "<p>Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim. </p>\n<p>In rump bresaola cow, fatback consequat nostrud ut aliquip irure sed burgdoggen occaecat in sint. Cow pariatur laborum pancetta beef tongue dolor shankle aute kevin pork chop t-bone pig ex meatball. </p>\n<p>T-bone jerky do jowl shank, laboris adipisicing capicola drumstick rump chuck ground round non. Rump burgdoggen ball tip kielbasa proident.</p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-css\"><code><span class=\"token selector\">body</span><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">display</span><span class=\"token punctuation\">:</span>none<span class=\"token punctuation\">;</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>\n      </div>",
-              "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
+              "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
               "frontmatter": {
-                "date": "2017-10-05T23:10:43+00:00",
+                "date": "October 05, 2017",
                 "path": "/building_this_site",
                 "title": "Building this site",
                 "tags": [
                   "latin",
                   "sample"
-                ]
-              }
-            },
-            {
-              "excerpt": "",
-              "html": "",
-              "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
-              "frontmatter": {
-                "date": "2017-07-12T17:12:33.962Z",
-                "path": "/third-post",
-                "title": "Third Post",
-                "tags": [
-                  "latin",
-                  "sample"
-                ]
+                ],
+                "image": "http://lorempixel.com/400/225/"
               }
             },
             {
               "excerpt": "This is a paragraph.",
               "html": "<p>This is a paragraph.</p>",
-              "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
+              "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
               "frontmatter": {
-                "date": "2017-07-12T17:12:33.962Z",
+                "date": "July 12, 2017",
                 "path": "/test",
                 "title": "Test title",
                 "tags": [
                   "latin",
                   "sample"
-                ]
+                ],
+                "image": "http://lorempixel.com/400/225/"
+              }
+            },
+            {
+              "excerpt": "",
+              "html": "",
+              "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
+              "frontmatter": {
+                "date": "July 12, 2017",
+                "path": "/third-post",
+                "title": "Third Post",
+                "tags": [
+                  "latin",
+                  "sample"
+                ],
+                "image": "http://lorempixel.com/400/225/"
               }
             }
           ]
@@ -1301,43 +1400,46 @@
           {
             "excerpt": "Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim.  In rump bresaola cow, fatback consequat nostrud ut…",
             "html": "<p>Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim. </p>\n<p>In rump bresaola cow, fatback consequat nostrud ut aliquip irure sed burgdoggen occaecat in sint. Cow pariatur laborum pancetta beef tongue dolor shankle aute kevin pork chop t-bone pig ex meatball. </p>\n<p>T-bone jerky do jowl shank, laboris adipisicing capicola drumstick rump chuck ground round non. Rump burgdoggen ball tip kielbasa proident.</p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-css\"><code><span class=\"token selector\">body</span><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">display</span><span class=\"token punctuation\">:</span>none<span class=\"token punctuation\">;</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>\n      </div>",
-            "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
+            "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
             "frontmatter": {
-              "date": "2017-10-05T23:10:43+00:00",
+              "date": "October 05, 2017",
               "path": "/building_this_site",
               "title": "Building this site",
               "tags": [
                 "latin",
                 "sample"
-              ]
-            }
-          },
-          {
-            "excerpt": "",
-            "html": "",
-            "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
-            "frontmatter": {
-              "date": "2017-07-12T17:12:33.962Z",
-              "path": "/third-post",
-              "title": "Third Post",
-              "tags": [
-                "latin",
-                "sample"
-              ]
+              ],
+              "image": "http://lorempixel.com/400/225/"
             }
           },
           {
             "excerpt": "This is a paragraph.",
             "html": "<p>This is a paragraph.</p>",
-            "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
+            "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
             "frontmatter": {
-              "date": "2017-07-12T17:12:33.962Z",
+              "date": "July 12, 2017",
               "path": "/test",
               "title": "Test title",
               "tags": [
                 "latin",
                 "sample"
-              ]
+              ],
+              "image": "http://lorempixel.com/400/225/"
+            }
+          },
+          {
+            "excerpt": "",
+            "html": "",
+            "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
+            "frontmatter": {
+              "date": "July 12, 2017",
+              "path": "/third-post",
+              "title": "Third Post",
+              "tags": [
+                "latin",
+                "sample"
+              ],
+              "image": "http://lorempixel.com/400/225/"
             }
           }
         ],
@@ -1347,65 +1449,68 @@
       "layout": "index",
       "jsonName": "tags-latin.json",
       "internalComponentName": "ComponentTagsLatin",
-      "updatedAt": 1507567003152,
+      "updatedAt": 1507638838701,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/templates/tags.js",
+      "componentPath": "/Users/Rob/localdev/pixelstew-gatsby/src/templates/tags.js",
       "id": "SitePage /tags/latin",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cb6e607be47d8afc4a94128440f3f319",
+        "contentDigest": "87ed61370698fd312323b87c8b0b8140",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /tags/sample": {
       "path": "/tags/sample",
-      "component": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/templates/tags.js",
+      "component": "/Users/Rob/localdev/pixelstew-gatsby/src/templates/tags.js",
       "context": {
         "posts": {
           "latin": [
             {
               "excerpt": "Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim.  In rump bresaola cow, fatback consequat nostrud ut…",
               "html": "<p>Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim. </p>\n<p>In rump bresaola cow, fatback consequat nostrud ut aliquip irure sed burgdoggen occaecat in sint. Cow pariatur laborum pancetta beef tongue dolor shankle aute kevin pork chop t-bone pig ex meatball. </p>\n<p>T-bone jerky do jowl shank, laboris adipisicing capicola drumstick rump chuck ground round non. Rump burgdoggen ball tip kielbasa proident.</p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-css\"><code><span class=\"token selector\">body</span><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">display</span><span class=\"token punctuation\">:</span>none<span class=\"token punctuation\">;</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>\n      </div>",
-              "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
+              "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
               "frontmatter": {
-                "date": "2017-10-05T23:10:43+00:00",
+                "date": "October 05, 2017",
                 "path": "/building_this_site",
                 "title": "Building this site",
                 "tags": [
                   "latin",
                   "sample"
-                ]
-              }
-            },
-            {
-              "excerpt": "",
-              "html": "",
-              "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
-              "frontmatter": {
-                "date": "2017-07-12T17:12:33.962Z",
-                "path": "/third-post",
-                "title": "Third Post",
-                "tags": [
-                  "latin",
-                  "sample"
-                ]
+                ],
+                "image": "http://lorempixel.com/400/225/"
               }
             },
             {
               "excerpt": "This is a paragraph.",
               "html": "<p>This is a paragraph.</p>",
-              "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
+              "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
               "frontmatter": {
-                "date": "2017-07-12T17:12:33.962Z",
+                "date": "July 12, 2017",
                 "path": "/test",
                 "title": "Test title",
                 "tags": [
                   "latin",
                   "sample"
-                ]
+                ],
+                "image": "http://lorempixel.com/400/225/"
+              }
+            },
+            {
+              "excerpt": "",
+              "html": "",
+              "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
+              "frontmatter": {
+                "date": "July 12, 2017",
+                "path": "/third-post",
+                "title": "Third Post",
+                "tags": [
+                  "latin",
+                  "sample"
+                ],
+                "image": "http://lorempixel.com/400/225/"
               }
             }
           ],
@@ -1413,43 +1518,46 @@
             {
               "excerpt": "Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim.  In rump bresaola cow, fatback consequat nostrud ut…",
               "html": "<p>Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim. </p>\n<p>In rump bresaola cow, fatback consequat nostrud ut aliquip irure sed burgdoggen occaecat in sint. Cow pariatur laborum pancetta beef tongue dolor shankle aute kevin pork chop t-bone pig ex meatball. </p>\n<p>T-bone jerky do jowl shank, laboris adipisicing capicola drumstick rump chuck ground round non. Rump burgdoggen ball tip kielbasa proident.</p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-css\"><code><span class=\"token selector\">body</span><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">display</span><span class=\"token punctuation\">:</span>none<span class=\"token punctuation\">;</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>\n      </div>",
-              "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
+              "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
               "frontmatter": {
-                "date": "2017-10-05T23:10:43+00:00",
+                "date": "October 05, 2017",
                 "path": "/building_this_site",
                 "title": "Building this site",
                 "tags": [
                   "latin",
                   "sample"
-                ]
-              }
-            },
-            {
-              "excerpt": "",
-              "html": "",
-              "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
-              "frontmatter": {
-                "date": "2017-07-12T17:12:33.962Z",
-                "path": "/third-post",
-                "title": "Third Post",
-                "tags": [
-                  "latin",
-                  "sample"
-                ]
+                ],
+                "image": "http://lorempixel.com/400/225/"
               }
             },
             {
               "excerpt": "This is a paragraph.",
               "html": "<p>This is a paragraph.</p>",
-              "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
+              "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
               "frontmatter": {
-                "date": "2017-07-12T17:12:33.962Z",
+                "date": "July 12, 2017",
                 "path": "/test",
                 "title": "Test title",
                 "tags": [
                   "latin",
                   "sample"
-                ]
+                ],
+                "image": "http://lorempixel.com/400/225/"
+              }
+            },
+            {
+              "excerpt": "",
+              "html": "",
+              "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
+              "frontmatter": {
+                "date": "July 12, 2017",
+                "path": "/third-post",
+                "title": "Third Post",
+                "tags": [
+                  "latin",
+                  "sample"
+                ],
+                "image": "http://lorempixel.com/400/225/"
               }
             }
           ]
@@ -1458,43 +1566,46 @@
           {
             "excerpt": "Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim.  In rump bresaola cow, fatback consequat nostrud ut…",
             "html": "<p>Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim. </p>\n<p>In rump bresaola cow, fatback consequat nostrud ut aliquip irure sed burgdoggen occaecat in sint. Cow pariatur laborum pancetta beef tongue dolor shankle aute kevin pork chop t-bone pig ex meatball. </p>\n<p>T-bone jerky do jowl shank, laboris adipisicing capicola drumstick rump chuck ground round non. Rump burgdoggen ball tip kielbasa proident.</p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-css\"><code><span class=\"token selector\">body</span><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">display</span><span class=\"token punctuation\">:</span>none<span class=\"token punctuation\">;</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>\n      </div>",
-            "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
+            "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
             "frontmatter": {
-              "date": "2017-10-05T23:10:43+00:00",
+              "date": "October 05, 2017",
               "path": "/building_this_site",
               "title": "Building this site",
               "tags": [
                 "latin",
                 "sample"
-              ]
-            }
-          },
-          {
-            "excerpt": "",
-            "html": "",
-            "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
-            "frontmatter": {
-              "date": "2017-07-12T17:12:33.962Z",
-              "path": "/third-post",
-              "title": "Third Post",
-              "tags": [
-                "latin",
-                "sample"
-              ]
+              ],
+              "image": "http://lorempixel.com/400/225/"
             }
           },
           {
             "excerpt": "This is a paragraph.",
             "html": "<p>This is a paragraph.</p>",
-            "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
+            "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
             "frontmatter": {
-              "date": "2017-07-12T17:12:33.962Z",
+              "date": "July 12, 2017",
               "path": "/test",
               "title": "Test title",
               "tags": [
                 "latin",
                 "sample"
-              ]
+              ],
+              "image": "http://lorempixel.com/400/225/"
+            }
+          },
+          {
+            "excerpt": "",
+            "html": "",
+            "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
+            "frontmatter": {
+              "date": "July 12, 2017",
+              "path": "/third-post",
+              "title": "Third Post",
+              "tags": [
+                "latin",
+                "sample"
+              ],
+              "image": "http://lorempixel.com/400/225/"
             }
           }
         ],
@@ -1504,218 +1615,200 @@
       "layout": "index",
       "jsonName": "tags-sample.json",
       "internalComponentName": "ComponentTagsSample",
-      "updatedAt": 1507567003153,
+      "updatedAt": 1507638838702,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/templates/tags.js",
+      "componentPath": "/Users/Rob/localdev/pixelstew-gatsby/src/templates/tags.js",
       "id": "SitePage /tags/sample",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "67ac51ce26a3baec178016cc73790af7",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /building_this_site": {
-      "path": "/building_this_site",
-      "component": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/templates/blog-post.js",
-      "context": {
-        "next": {
-          "excerpt": "",
-          "html": "",
-          "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
-          "frontmatter": {
-            "date": "2017-07-12T17:12:33.962Z",
-            "path": "/third-post",
-            "title": "Third Post",
-            "tags": [
-              "latin",
-              "sample"
-            ]
-          }
-        }
-      },
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "layout": "index",
-      "jsonName": "building-this-site.json",
-      "internalComponentName": "ComponentBuildingThisSite",
-      "updatedAt": 1507567003154,
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/templates/blog-post.js",
-      "id": "SitePage /building_this_site",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "1179b12cb94b9c26e34099c1075ad4c6",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /third-post": {
-      "path": "/third-post",
-      "component": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/templates/blog-post.js",
-      "context": {
-        "prev": {
-          "excerpt": "Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim.  In rump bresaola cow, fatback consequat nostrud ut…",
-          "html": "<p>Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim. </p>\n<p>In rump bresaola cow, fatback consequat nostrud ut aliquip irure sed burgdoggen occaecat in sint. Cow pariatur laborum pancetta beef tongue dolor shankle aute kevin pork chop t-bone pig ex meatball. </p>\n<p>T-bone jerky do jowl shank, laboris adipisicing capicola drumstick rump chuck ground round non. Rump burgdoggen ball tip kielbasa proident.</p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-css\"><code><span class=\"token selector\">body</span><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">display</span><span class=\"token punctuation\">:</span>none<span class=\"token punctuation\">;</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>\n      </div>",
-          "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
-          "frontmatter": {
-            "date": "2017-10-05T23:10:43+00:00",
-            "path": "/building_this_site",
-            "title": "Building this site",
-            "tags": [
-              "latin",
-              "sample"
-            ]
-          }
-        },
-        "next": {
-          "excerpt": "This is a paragraph.",
-          "html": "<p>This is a paragraph.</p>",
-          "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
-          "frontmatter": {
-            "date": "2017-07-12T17:12:33.962Z",
-            "path": "/test",
-            "title": "Test title",
-            "tags": [
-              "latin",
-              "sample"
-            ]
-          }
-        }
-      },
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "layout": "index",
-      "jsonName": "third-post.json",
-      "internalComponentName": "ComponentThirdPost",
-      "updatedAt": 1507567003154,
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/templates/blog-post.js",
-      "id": "SitePage /third-post",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "fd7e4ab1a533b6364b30f6521f3c8fa3",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /test": {
-      "path": "/test",
-      "component": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/templates/blog-post.js",
-      "context": {
-        "prev": {
-          "excerpt": "",
-          "html": "",
-          "id": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
-          "frontmatter": {
-            "date": "2017-07-12T17:12:33.962Z",
-            "path": "/third-post",
-            "title": "Third Post",
-            "tags": [
-              "latin",
-              "sample"
-            ]
-          }
-        }
-      },
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "layout": "index",
-      "jsonName": "test.json",
-      "internalComponentName": "ComponentTest",
-      "updatedAt": 1507567003155,
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/templates/blog-post.js",
-      "id": "SitePage /test",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "e6a8932cb74f245a49e5cb60f8078e43",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404/": {
-      "path": "/404/",
-      "component": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "layout": "index",
-      "jsonName": "404.json",
-      "internalComponentName": "Component404",
-      "updatedAt": 1507567003168,
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/404.js",
-      "id": "SitePage /404/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "0aba3599490f748e135d7c8ebd163d3e",
+        "contentDigest": "8bc0d91ef9f6dfd341015a13207f95b0",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /": {
       "path": "/",
-      "component": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
+      "component": "/Users/Rob/localdev/pixelstew-gatsby/src/templates/paginatedPostList.js",
+      "context": {
+        "group": [
+          {
+            "node": {
+              "excerpt": "Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim.  In rump bresaola cow, fatback consequat nostrud ut…",
+              "html": "<p>Spicy jalapeno bacon ipsum dolor amet proident dolore cupim corned beef ea. Meatball turducken biltong, sirloin sausage filet mignon velit elit salami leberkas minim excepteur prosciutto enim. </p>\n<p>In rump bresaola cow, fatback consequat nostrud ut aliquip irure sed burgdoggen occaecat in sint. Cow pariatur laborum pancetta beef tongue dolor shankle aute kevin pork chop t-bone pig ex meatball. </p>\n<p>T-bone jerky do jowl shank, laboris adipisicing capicola drumstick rump chuck ground round non. Rump burgdoggen ball tip kielbasa proident.</p>\n<div class=\"gatsby-highlight\">\n      <pre class=\"language-css\"><code><span class=\"token selector\">body</span><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">display</span><span class=\"token punctuation\">:</span>none<span class=\"token punctuation\">;</span>\n<span class=\"token punctuation\">}</span>\n</code></pre>\n      </div>",
+              "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/210917_Building_this_site/index.md absPath of file >>> MarkdownRemark",
+              "frontmatter": {
+                "date": "October 05, 2017",
+                "path": "/building_this_site",
+                "title": "Building this site",
+                "tags": [
+                  "latin",
+                  "sample"
+                ],
+                "image": "http://lorempixel.com/400/225/"
+              }
+            }
+          }
+        ],
+        "first": true,
+        "last": false,
+        "index": 1
+      },
+      "componentChunkName": "component---src-templates-paginated-post-list-js",
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1507567003170,
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/index.js",
+      "updatedAt": 1507638838702,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/Rob/localdev/pixelstew-gatsby/src/templates/paginatedPostList.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7b329914680a370c7b768d46dd4fe868",
+        "contentDigest": "4ab1498d9719f2db274eb1f7daa3b32e",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /2": {
+      "path": "/2",
+      "component": "/Users/Rob/localdev/pixelstew-gatsby/src/templates/paginatedPostList.js",
+      "context": {
+        "group": [
+          {
+            "node": {
+              "excerpt": "This is a paragraph.",
+              "html": "<p>This is a paragraph.</p>",
+              "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/220917_test_post/index.md absPath of file >>> MarkdownRemark",
+              "frontmatter": {
+                "date": "July 12, 2017",
+                "path": "/test",
+                "title": "Test title",
+                "tags": [
+                  "latin",
+                  "sample"
+                ],
+                "image": "http://lorempixel.com/400/225/"
+              }
+            }
+          }
+        ],
+        "first": false,
+        "last": false,
+        "index": 2
+      },
+      "componentChunkName": "component---src-templates-paginated-post-list-js",
+      "layout": "index",
+      "jsonName": "2.json",
+      "internalComponentName": "Component2",
+      "updatedAt": 1507638838703,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/Rob/localdev/pixelstew-gatsby/src/templates/paginatedPostList.js",
+      "id": "SitePage /2",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e4abceb7aa40bf416b6ce56e59464078",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /3": {
+      "path": "/3",
+      "component": "/Users/Rob/localdev/pixelstew-gatsby/src/templates/paginatedPostList.js",
+      "context": {
+        "group": [
+          {
+            "node": {
+              "excerpt": "",
+              "html": "",
+              "id": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/051017_third_post/index.md absPath of file >>> MarkdownRemark",
+              "frontmatter": {
+                "date": "July 12, 2017",
+                "path": "/third-post",
+                "title": "Third Post",
+                "tags": [
+                  "latin",
+                  "sample"
+                ],
+                "image": "http://lorempixel.com/400/225/"
+              }
+            }
+          }
+        ],
+        "first": false,
+        "last": true,
+        "index": 3
+      },
+      "componentChunkName": "component---src-templates-paginated-post-list-js",
+      "layout": "index",
+      "jsonName": "3.json",
+      "internalComponentName": "Component3",
+      "updatedAt": 1507638838704,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/Rob/localdev/pixelstew-gatsby/src/templates/paginatedPostList.js",
+      "id": "SitePage /3",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e56fba1c3271416dc8912f54bfaa03f4",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "path": "/404/",
+      "component": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "updatedAt": 1507638838742,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7d04aaa588fce41dc98dbd2d9d37211f",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /404.html": {
       "path": "/404.html",
-      "component": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/404.js",
+      "component": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "layout": "index",
       "jsonName": "404-html.json",
       "internalComponentName": "Component404Html",
-      "updatedAt": 1507567003173,
+      "updatedAt": 1507638838743,
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/Users/rob_gilbert/Documents/localdev/pixelstew-gatsby/src/pages/404.js",
+      "componentPath": "/Users/Rob/localdev/pixelstew-gatsby/src/pages/404.js",
       "id": "SitePage /404.html",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0e33da5ee7e936d7f3be2af551d50757",
+        "contentDigest": "8ee41c77de79770236b9d4e9da034daf",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "862fd426da7330d1fa2d3506d8f3e8cb"
+    "PLUGINS_HASH": "e3bfe28fa6c3c8300c35e1bd751d24ab"
   },
   "componentDataDependencies": {
     "nodes": {},
-    "connections": {
-      "MarkdownRemark": [
-        "/"
-      ],
-      "SitePage": [
-        "/dev-404-page/"
-      ]
-    }
+    "connections": {}
   }
 }
