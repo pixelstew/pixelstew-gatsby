@@ -31,22 +31,22 @@ const Preview = props => {
           <h4>{props.post.frontmatter.date}</h4>
         </div>
       </div>
-      <p>{props.post.excerpt}<Link to={props.post.frontmatter.path}>read more</Link></p>
+      <p>
+        {props.post.excerpt}
+        <Link to={props.post.frontmatter.path}>read more</Link>
+      </p>
     </div>
   );
 };
 
-const PostPreview = styled(Preview) `
+const PostPreview = styled(Preview)`
   margin-bottom: 5rem;
   .flex-container {
     display: flex;
     margin-bottom: 1rem;
   }
   h2 {
-    margin: -0.9rem 0;
-    a{
-      font-weight: 300;
-    }
+    margin: -0.8rem 0 -1em;
   }
   h4 {
     margin-top: 1rem;
@@ -61,7 +61,7 @@ const PostPreview = styled(Preview) `
   }
   .post-title {
     flex-grow: 3;
-    padding-left: .5rem;
+    padding-left: 0.5rem;
   }
   .intrinsic {
     display: block;

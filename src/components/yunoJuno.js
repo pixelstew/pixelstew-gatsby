@@ -15,10 +15,10 @@ const YunoLogo = props => {
   );
 };
 
-const Yuno = styled(YunoLogo) `
+const Yuno = styled(YunoLogo)`
   width: 30px;
   position: absolute;
-  top: 100px;
+  top: 92px;
   right: 1rem;
   @media (min-width: 550px) {
     top: 2rem;

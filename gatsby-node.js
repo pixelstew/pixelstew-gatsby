@@ -1,7 +1,6 @@
 const path = require("path");
 
 const createPostPages = (createPage, edges) => {
-
   const blogPostTemplate = path.resolve(`src/templates/blog-post.js`);
 
   edges.forEach(({ node }, index) => {
@@ -16,12 +15,11 @@ const createPostPages = (createPage, edges) => {
       }
     });
   });
-}
+};
 
 const createPaginationPages = (createPage, edges) => {
-
   const paginationTemplate = path.resolve(`src/templates/paginatedPostList.js`);
-  const paginateSize = 5;
+  const paginateSize = 2;
 
   //Split posts into arrays of length equal to number posts on each page/paginateSize
   const groupedPages = edges
@@ -35,12 +33,12 @@ const createPaginationPages = (createPage, edges) => {
   //Create new indexed route for each array
   groupedPages.forEach((group, index, groups) => {
     // create route '/' for homepage and incremented route for subsequent pages
-    const pageIndex = index === 0 ? '' : index + 1
-    const paginationRoute = `/${pageIndex}`
+    const pageIndex = index === 0 ? "" : index + 1;
+    const paginationRoute = `/${pageIndex}`;
     // Avoid showing 'Previous' link on first page - passed to context
     const first = index === 0 ? true : false;
     // Avoid showing 'Next' link if this is the last page - passed to context
-    const last = index === groups.length - 1 && !first ? true : false;
+    const last = index === groups.length - 1 ? true : false;
     return createPage({
       path: paginationRoute,
       component: paginationTemplate,
@@ -55,7 +53,6 @@ const createPaginationPages = (createPage, edges) => {
 };
 
 const createTagPages = (createPage, edges) => {
-
   const tagTemplate = path.resolve(`src/templates/tags.js`);
   const posts = {};
 
@@ -92,9 +89,7 @@ const createTagPages = (createPage, edges) => {
   });
 };
 
-
 exports.createPages = ({ boundActionCreators, graphql }) => {
-
   const { createPage } = boundActionCreators;
 
   return graphql(`
@@ -120,15 +115,14 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       }
     }
   `).then(result => {
+    if (result.errors) {
+      return Promise.reject(result.errors);
+    }
 
-      if (result.errors) {
-        return Promise.reject(result.errors);
-      }
+    const posts = result.data.allMarkdownRemark.edges;
 
-      const posts = result.data.allMarkdownRemark.edges;
-
-      createTagPages(createPage, posts);
-      createPaginationPages(createPage, posts);
-      createPostPages(createPage, posts);
-    });
+    createTagPages(createPage, posts);
+    createPaginationPages(createPage, posts);
+    createPostPages(createPage, posts);
+  });
 };
