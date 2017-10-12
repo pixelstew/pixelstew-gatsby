@@ -17,7 +17,7 @@ const Preview = props => {
               <img
                 className="intrinsic-item"
                 srcSet={props.post.frontmatter.image}
-                alt=""
+                alt={props.post.frontmatter.title}
               />
             </picture>
           </Link>

@@ -134,7 +134,6 @@ a {
   transition: color 0.3s ease;
 
   color: rgb(112, 168, 59);
-  /* font-weight: bold; */
 
   text-decoration-skip: ink;
 }

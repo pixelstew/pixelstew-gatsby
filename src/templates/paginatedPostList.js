@@ -25,9 +25,7 @@ export default function PaginatedPostList({ pathContext }) {
       {first ? (
         <h1>
           A website about websites.<br />Words by Rob Gilbert who{" "}
-          <Link to="https://uk.yunojuno.com/p/rob-gilbert">
-            makes websites
-          </Link>{" "}
+          <Link to="https://uk.yunojuno.com/p/rob-gilbert">makes websites</Link>
           for people and companies in London.
         </h1>
       ) : (
