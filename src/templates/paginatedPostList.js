@@ -7,7 +7,7 @@ import Config from "../../gatsby-config";
 import styled from "styled-components";
 
 export default function PaginatedPostList({ pathContext }) {
-  const Link = styled(GatsbyLink)`
+  const Link = styled(GatsbyLink) `
     text-decoration-skip: ink;
     margin: 3rem 0;
     color: ${Theme.secondary};
@@ -25,12 +25,12 @@ export default function PaginatedPostList({ pathContext }) {
       {first ? (
         <h1>
           A website about websites.<br />Words by Rob Gilbert who{" "}
-          <Link to="https://uk.yunojuno.com/p/rob-gilbert">makes websites</Link>
+          <a href="https://uk.yunojuno.com/p/rob-gilbert">makes websites</a>{" "}
           for people and companies in London.
         </h1>
       ) : (
-        <h1>More posts...</h1>
-      )}
+          <h1>More posts...</h1>
+        )}
 
       <hr />
       <div className="blog-posts">
