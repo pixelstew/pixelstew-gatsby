@@ -6,6 +6,7 @@
   "engines": {
     "node": ">=8.7.0" // intentionally so big version number
   },
+  "private": true,
   "dependencies": {
     "enzyme": "^3.1.0",
     "gatsby": "^1.9.36",
