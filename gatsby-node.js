@@ -1,4 +1,5 @@
 const path = require("path");
+const paginate = require("gatsby-paginate");
 
 const createPostPages = (createPage, edges) => {
   const blogPostTemplate = path.resolve(`src/templates/blog-post.js`);
@@ -12,41 +13,6 @@ const createPostPages = (createPage, edges) => {
       context: {
         prev: prev.node,
         next: next.node
-      }
-    });
-  });
-};
-
-const createPaginationPages = (createPage, edges) => {
-  const paginationTemplate = path.resolve(`src/templates/paginatedPostList.js`);
-  const paginateSize = 2;
-
-  //Split posts into arrays of length equal to number posts on each page/paginateSize
-  const groupedPages = edges
-    .map((edge, index) => {
-      return index % paginateSize === 0
-        ? edges.slice(index, index + paginateSize)
-        : null;
-    })
-    .filter(item => item);
-
-  //Create new indexed route for each array
-  groupedPages.forEach((group, index, groups) => {
-    // create route '/' for homepage and incremented route for subsequent pages
-    const pageIndex = index === 0 ? "" : index + 1;
-    const paginationRoute = `/${pageIndex}`;
-    // Avoid showing 'Previous' link on first page - passed to context
-    const first = index === 0 ? true : false;
-    // Avoid showing 'Next' link if this is the last page - passed to context
-    const last = index === groups.length - 1 ? true : false;
-    return createPage({
-      path: paginationRoute,
-      component: paginationTemplate,
-      context: {
-        group,
-        first,
-        last,
-        index: index + 1
       }
     });
   });
@@ -122,7 +88,11 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     const posts = result.data.allMarkdownRemark.edges;
 
     createTagPages(createPage, posts);
-    createPaginationPages(createPage, posts);
+    paginate({
+      edges: posts,
+      createPage: createPage,
+      pageTemplate: "./src/templates/paginatedPostList.js"
+    });
     createPostPages(createPage, posts);
   });
 };
