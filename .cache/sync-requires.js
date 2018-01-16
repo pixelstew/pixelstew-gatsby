@@ -2,6 +2,10 @@
 const preferDefault = m => m && m.default || m
 
 
+exports.layouts = {
+  "layout---index": preferDefault(require("/Users/rob/Documents/localdev/pixelstew-gatsby/.cache/layouts/index.js"))
+}
+
 exports.components = {
   "component---cache-dev-404-page-js": preferDefault(require("/Users/rob/Documents/localdev/pixelstew-gatsby/.cache/dev-404-page.js")),
   "component---src-templates-tags-js": preferDefault(require("/Users/rob/Documents/localdev/pixelstew-gatsby/src/templates/tags.js")),
@@ -33,8 +37,4 @@ exports.json = {
   "404.json": require("/Users/rob/Documents/localdev/pixelstew-gatsby/.cache/json/404.json"),
   "layout-index.json": require("/Users/rob/Documents/localdev/pixelstew-gatsby/.cache/json/layout-index.json"),
   "404-html.json": require("/Users/rob/Documents/localdev/pixelstew-gatsby/.cache/json/404-html.json")
-}
-
-exports.layouts = {
-  "component---src-layouts-index-js": preferDefault(require("/Users/rob/Documents/localdev/pixelstew-gatsby/.cache/layouts/index.js"))
 }

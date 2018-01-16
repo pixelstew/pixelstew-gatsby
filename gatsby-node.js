@@ -90,7 +90,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     createTagPages(createPage, posts);
     paginate({
       edges: posts,
-      createPage: createPage,
+      createPage,
       pageTemplate: "./src/templates/paginatedPostList.js"
     });
     createPostPages(createPage, posts);

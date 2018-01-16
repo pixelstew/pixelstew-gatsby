@@ -10,17 +10,17 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 
 import "./index.css";
-import "prism-themes/themes/prism-duotone-space.css";
+import "prism-themes/themes/prism-atom-dark.css";
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet
-      title="Pixelstew"
-      meta={[
-        { name: "description", content: "Sample" },
-        { name: "keywords", content: "sample, something" }
-      ]}
-    />
+    <Helmet>
+      <title>Pixelstew</title>
+      <meta
+        name="description"
+        content="A website about websites. Words by Rob Gilbert who makes websites for people and companies in London."
+      />
+    </Helmet>
     <Header />
     <article
       style={{

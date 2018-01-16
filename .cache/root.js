@@ -1,15 +1,58 @@
 import React, { createElement } from "react"
 import { Router, Route, matchPath, withRouter } from "react-router-dom"
 import { ScrollContext } from "gatsby-react-router-scroll"
-import history from "./dev-history"
+import history from "./history"
 import { apiRunner } from "./api-runner-browser"
 import syncRequires from "./sync-requires"
 import pages from "./pages.json"
+import redirects from "./redirects.json"
 import ComponentRenderer from "./component-renderer"
 import loader from "./loader"
+
+import * as ErrorOverlay from "react-error-overlay"
+
+// Report runtime errors
+ErrorOverlay.startReportingRuntimeErrors({
+  onError: () => {},
+  filename: `/commons.js`,
+})
+ErrorOverlay.setEditorHandler(errorLocation =>
+  window.fetch(
+    `/__open-stack-frame-in-editor?fileName=` +
+      window.encodeURIComponent(errorLocation.fileName) +
+      `&lineNumber=` +
+      window.encodeURIComponent(errorLocation.lineNumber || 1)
+  )
+)
+
+if (window.__webpack_hot_middleware_reporter__ !== undefined) {
+  // Report build errors
+  window.__webpack_hot_middleware_reporter__.useCustomOverlay({
+    showProblems(type, obj) {
+      if (type !== `errors`) {
+        ErrorOverlay.dismissBuildError()
+        return
+      }
+      ErrorOverlay.reportBuildError(obj[0])
+    },
+    clear() {
+      ErrorOverlay.dismissBuildError()
+    },
+  })
+}
+
 loader.addPagesArray(pages)
 loader.addDevRequires(syncRequires)
 window.___loader = loader
+
+// Convert to a map for faster lookup in maybeRedirect()
+const redirectMap = redirects.reduce((map, redirect) => {
+  map[redirect.fromPath] = redirect
+  return map
+}, {})
+
+// Check for initial page-load redirect
+maybeRedirect(location.pathname)
 
 // Call onRouteUpdate on the initial page load.
 apiRunner(`onRouteUpdate`, {
@@ -22,8 +65,29 @@ function attachToHistory(history) {
     window.___history = history
 
     history.listen((location, action) => {
-      apiRunner(`onRouteUpdate`, { location, action })
+      if (!maybeRedirect(location.pathname)) {
+        apiRunner(`onRouteUpdate`, { location, action })
+      }
     })
+  }
+}
+
+function maybeRedirect(pathname) {
+  const redirect = redirectMap[pathname]
+
+  if (redirect != null) {
+    const pageResources = loader.getResourcesForPathname(pathname)
+
+    if (pageResources != null) {
+      console.error(
+        `The route "${pathname}" matches both a page and a redirect; this is probably not intentional.`
+      )
+    }
+
+    history.replace(redirect.toPath)
+    return true
+  } else {
+    return false
   }
 }
 
@@ -79,6 +143,8 @@ const DefaultRouter = ({ children }) => (
   <Router history={history}>{children}</Router>
 )
 
+const ComponentRendererWithRouter = withRouter(ComponentRenderer)
+
 // Always have to have one top-level layout
 // can have ones below that. Find page, if has different
 // parent layout(s), loop through those until finally the
@@ -91,24 +157,35 @@ const Root = () =>
     createElement(
       ScrollContext,
       { shouldUpdateScroll },
-      createElement(withRouter(ComponentRenderer), {
+      createElement(ComponentRendererWithRouter, {
         layout: true,
         children: layoutProps =>
           createElement(Route, {
             render: routeProps => {
               const props = layoutProps ? layoutProps : routeProps
               attachToHistory(props.history)
-              const pageResources = loader.getResourcesForPathname(
-                props.location.pathname
-              )
-              if (pageResources) {
+              const { pathname } = props.location
+              const pageResources = loader.getResourcesForPathname(pathname)
+              if (pageResources && pageResources.component) {
                 return createElement(ComponentRenderer, {
+                  key: `normal-page`,
                   page: true,
                   ...props,
                   pageResources,
                 })
               } else {
-                return addNotFoundRoute()
+                const dev404Page = pages.find(p => p.path === `/dev-404-page/`)
+                return createElement(Route, {
+                  key: `404-page`,
+                  component: props =>
+                    createElement(
+                      syncRequires.components[dev404Page.componentChunkName],
+                      {
+                        ...props,
+                        ...syncRequires.json[dev404Page.jsonName],
+                      }
+                    ),
+                })
               }
             },
           }),

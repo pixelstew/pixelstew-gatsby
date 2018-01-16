@@ -7,29 +7,47 @@ import NextPage from "../components/nextpage";
 import theme from "../components/pixelstewTheme";
 import TagList from "../components/tagList";
 
+import ReactCSSTransitionGroup from "react-addons-css-transition-group";
+
 export default function Template({ data, pathContext }) {
   const { markdownRemark: post } = data; // data.markdownRemark holds our post data
   const { next, prev } = pathContext;
   const SubHeading = styled.h4`
     margin-top: -2rem;
     font-weight: 500;
-  `
+  `;
   return (
-    <div className="blog-post-container">
-      <Helmet title={`Pixesltew - ${post.frontmatter.title}`} />
-      <div className="blog-post">
-        <h1>{post.frontmatter.title}</h1>
-        <SubHeading>{post.frontmatter.date}</SubHeading>
+    <ReactCSSTransitionGroup
+      transitionName="page-transition"
+      transitionAppear={true}
+      transitionAppearTimeout={500}
+      transitionEnterTimeout={500}
+      transitionLeaveTimeout={300}
+    >
+      <div className="blog-post-container">
+        <Helmet>
+          <title>{`Pixesltew | ${post.frontmatter.title}`}</title>
+          <meta
+            name="description"
+            content="A website about websites. Words by Rob Gilbert who makes websites for people and companies in London."
+          />
+        </Helmet>
+        <div className="blog-post">
+          <h1 className="display">{post.frontmatter.title}</h1>
+          <img src={post.frontmatter.image} alt="" />
+          <div
+            className="blog-post-content"
+            dangerouslySetInnerHTML={{ __html: post.html }}
+          />
+        </div>
         <hr />
-        <div
-          className="blog-post-content"
-          dangerouslySetInnerHTML={{ __html: post.html }}
-        />
+        <h3>{post.frontmatter.date}</h3>
+        {post.frontmatter.tags && (
+          <TagList list={post.frontmatter.tags || []} />
+        )}
+        <NextPage next={next} prev={prev} theme={theme} />
       </div>
-      <hr />
-      {post.frontmatter.tags && <TagList list={post.frontmatter.tags || []} />}
-      <NextPage next={next} prev={prev} theme={theme} />
-    </div>
+    </ReactCSSTransitionGroup>
   );
 }
 
@@ -41,6 +59,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        image
         tags
       }
     }

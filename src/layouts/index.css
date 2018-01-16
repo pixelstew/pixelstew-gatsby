@@ -37,7 +37,7 @@ h2,
 
   font-size: 1.75rem;
   font-weight: 300 !important;
-  line-height: 3.125rem;
+  line-height: 2.125rem;
 }
 h3,
 .h3 {
@@ -130,6 +130,10 @@ h4 a {
   font-weight: inherit;
 }
 
+.display {
+  margin-bottom: 2rem;
+}
+
 a {
   transition: color 0.3s ease;
 
@@ -148,13 +152,55 @@ a:active {
 }
 
 hr {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 
   color: rgba(118, 170, 219, 0.2);
 }
 
 .gatsby-highlight {
   margin-bottom: 2rem;
+}
+
+img {
+  max-width: 100%;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 1.45rem;
+  margin-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+.page-transition-enter {
+  opacity: 0.01;
+}
+
+.page-transition-appear {
+  opacity: 0.01;
+}
+
+.page-transition-appear.page-transition-appear-active {
+  transition: opacity 0.5s ease-in;
+
+  opacity: 1;
+}
+
+.page-transition-enter.page-transition-enter-active {
+  transition: opacity 500ms ease-in;
+
+  opacity: 1;
+}
+
+.page-transition-leave {
+  opacity: 1;
+}
+
+.page-transition-leave.page-transition-leave-active {
+  transition: opacity 300ms ease-in;
+
+  opacity: 0.01;
 }
 
 /*

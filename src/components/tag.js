@@ -11,7 +11,7 @@ const Tag = props => {
   );
 };
 
-const ThisTag = styled(Tag) `
+const ThisTag = styled(Tag)`
   transition: background ${Theme.transition} ease;
   background: ${Theme.secondary};
   text-decoration: none;
@@ -21,7 +21,7 @@ const ThisTag = styled(Tag) `
   border-radius: 15px;
   display: inline-block;
   color: #fff;
-  font-size: .8rem;
+  font-size: 0.8rem;
   margin: 0 0.5rem 0.5rem 0;
   &:hover,
   &:active {
@@ -29,7 +29,7 @@ const ThisTag = styled(Tag) `
     color: ${Theme.secondary};
   }
   &:active {
-    transform: ${Theme.scale};
+    transform: scale(0.9);
   }
 `;
 

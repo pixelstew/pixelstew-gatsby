@@ -9,7 +9,7 @@ const Preview = props => {
       <div className="flex-container">
         <div className="post-image">
           <Link to={props.post.frontmatter.path}>
-            <picture className="intrinsic intrinsic--16x9">
+            <picture className="intrinsic intrinsic--square">
               <source
                 media="(min-width: 550px)"
                 srcSet={props.post.frontmatter.image}
@@ -46,26 +46,27 @@ const PostPreview = styled(Preview)`
     margin-bottom: 1rem;
   }
   h2 {
-    margin: -0.8rem 0 -1em;
+    margin: 0;
   }
   h4 {
-    margin-top: 1rem;
+    margin-top: 0;
   }
   .post-image {
     flex-shrink: 0;
     flex-grow: 0;
     flex-basis: 110px;
-    &:hover {
-      opacity: 0.7;
-    }
+    // &:hover {
+    //   opacity: 0.7;
+    // }
   }
   .post-title {
     flex-grow: 3;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
   }
   .intrinsic {
     display: block;
-
+    border-radius: 50%;
+    overflow: hidden;
     position: relative;
     height: 0;
     width: 100%;
@@ -86,11 +87,16 @@ const PostPreview = styled(Preview)`
     }
 
     .intrinsic-item {
+      transition: filter 0.5s;
+      overflow: hidden;
+      filter: blur(2px);
       position: absolute;
       top: 0;
       left: 0;
-      width: 100%;
-      height: 100%;
+      min-width: 200%;
+      &:hover {
+        filter: blur(0.3px);
+      }
     }
   }
 `;
